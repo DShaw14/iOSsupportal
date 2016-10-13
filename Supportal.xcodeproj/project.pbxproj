@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2C49C11DAFE8A20077D317 /* oaklabslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F2C49C01DAFE8A20077D317 /* oaklabslogo.png */; };
+		8F2C49C31DAFF5E40077D317 /* oaklabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F2C49C21DAFF5E40077D317 /* oaklabs.png */; };
 		A02537661D99AF260017D756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02537651D99AF260017D756 /* AppDelegate.swift */; };
 		A02537681D99AF260017D756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02537671D99AF260017D756 /* ViewController.swift */; };
 		A025376B1D99AF260017D756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02537691D99AF260017D756 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F2C49C01DAFE8A20077D317 /* oaklabslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oaklabslogo.png; path = ../../../Desktop/oaklabslogo.png; sourceTree = "<group>"; };
+		8F2C49C21DAFF5E40077D317 /* oaklabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oaklabs.png; path = ../../../StudioProjects/Supportal/app/src/main/res/drawable/oaklabs.png; sourceTree = "<group>"; };
 		A02537621D99AF260017D756 /* Supportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02537651D99AF260017D756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A02537671D99AF260017D756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F2C49C41DB00E730077D317 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8F2C49C01DAFE8A20077D317 /* oaklabslogo.png */,
+				8F2C49C21DAFF5E40077D317 /* oaklabs.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		A02537591D99AF260017D756 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		A02537641D99AF260017D756 /* Supportal */ = {
 			isa = PBXGroup;
 			children = (
+				8F2C49C41DB00E730077D317 /* Images */,
 				A02537651D99AF260017D756 /* AppDelegate.swift */,
 				A02537671D99AF260017D756 /* ViewController.swift */,
 				A02537691D99AF260017D756 /* Main.storyboard */,
@@ -232,8 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2C49C11DAFE8A20077D317 /* oaklabslogo.png in Resources */,
 				A02537701D99AF260017D756 /* LaunchScreen.storyboard in Resources */,
 				A025376D1D99AF260017D756 /* Assets.xcassets in Resources */,
+				8F2C49C31DAFF5E40077D317 /* oaklabs.png in Resources */,
 				A025376B1D99AF260017D756 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +511,7 @@
 				A025378C1D99AF260017D756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A025378D1D99AF260017D756 /* Build configuration list for PBXNativeTarget "SupportalTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +520,7 @@
 				A025378F1D99AF260017D756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02537901D99AF260017D756 /* Build configuration list for PBXNativeTarget "SupportalUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +529,7 @@
 				A02537921D99AF260017D756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
