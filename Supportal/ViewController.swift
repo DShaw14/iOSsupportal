@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITextFieldDelegate
     // MARK: Properties
     @IBOutlet weak var UsernameTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
+    @IBOutlet var buttons : [UIView]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
