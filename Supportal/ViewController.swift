@@ -17,7 +17,6 @@ extension UIView {
         self.layer.shadowOpacity = Opacidade
         self.layer.masksToBounds = maskToBounds
     }
-    
 }
 
 class ViewController: UIViewController, UITextFieldDelegate
@@ -32,6 +31,7 @@ class ViewController: UIViewController, UITextFieldDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.layoutIfNeeded()
         UsernameTextField.delegate = self
         PasswordTextField.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
