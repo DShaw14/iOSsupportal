@@ -54,6 +54,7 @@ class ViewController: UIViewController, UITextFieldDelegate
         UsernameTextField.placeholder = nil
         PasswordTextField.placeholder = nil
     }
+    
     /*
     - (void)textFieldDidBeginEditing:(UITextField *)textField {
     UsernameTextField.placeholder = nil;

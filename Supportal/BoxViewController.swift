@@ -7,16 +7,14 @@
 //
 
 import UIKit
-//import DLRadioButton
 
 class BoxViewController: UIViewController {
 
     
-   //  @IBOutlet var CheckBox: [DLRadioButton]!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // CheckBox.delegate = self
 
         // Do any additional setup after loading the view.
     }
