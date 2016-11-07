@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Starscream
 import SlackKit
 
 //workspace "Supportal"

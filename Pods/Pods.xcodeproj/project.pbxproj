@@ -1,0 +1,1470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018B2853EB8E044260969412C6E15292 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F0EE713F346C06737A546EEE5E408 /* Socket.swift */; };
+		046787935A681E1A24B43EB632A3EE23 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75D5CBD13DCA358FBAEC16B6AC1B28 /* Attachment.swift */; };
+		076794CF7D7D7EB0803818DA834B94AD /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F89880E1158EEA750AE38304250B76 /* NetworkInterface.swift */; };
+		0E05F136AB3051338DC2EB54F0B81A83 /* OAuthServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629C8CAFE57442E98E5BDF1D62C7F91 /* OAuthServer.swift */; };
+		1016D7F07AD5F7866C88764FE2186704 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5407250740E32424ADCE0C0841B1E /* Bot.swift */; };
+		115685A67D27BEECF450BE6D11F6E7FB /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A7937BAACA51A80F0F2BC298AC8D60 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A113C48B4327189A1DBDC391BD7E0C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE987595E80DC25016C5FC272DCA8EB /* Channel.swift */; };
+		1380006467CD9272E966EDD3FC6502A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727781F0510251964C71D1AF35ED09A0 /* User.swift */; };
+		1CF47FA0058B337C516CE88B2E258286 /* SlackKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB5B7A8904746819A7CD71846345174 /* SlackKit.swift */; };
+		1D4E3DA3F3F311C86B75325423F661ED /* Socket+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714224E03546807B082A79106F2AE6C9 /* Socket+File.swift */; };
+		1D60BDD7D29940ED0221A4F19FC9FB2A /* Pods-Supportal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D092D4503A546D47A07CC717D57641F3 /* Pods-Supportal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281F0889932568B11B804F156B3C7171 /* AttachmentField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A90F0ADCC0E3DBCDDBCBF85C0E6987D /* AttachmentField.swift */; };
+		28B446F33DA4B719535CF22B5F04871A /* Pods-SupportalUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79520173FE32D22B34C5BB9BA3FAB59 /* Pods-SupportalUITests-dummy.m */; };
+		2B2ECDED5E9DBF17DF29A5578A685A37 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07619A1533BB978CF143329EADC57EC /* Scopes.swift */; };
+		3010DA2CE99AA909E7A1DECC45380916 /* MessageActionServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305B6C302FAAD62C7B426A74D965E50B /* MessageActionServer.swift */; };
+		316F7EBEF72F8F27D2706BA843845EDA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E446150C6203C37E4575AD938525E9 /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31EE0E55D33F8C531876915A86839E26 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD745BB943F4B53F1C14C25BD3EBB7E /* HttpResponse.swift */; };
+		32DE889BB683876D17F249B4DE593658 /* TeamIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59DFA4BBC09372442F165E990E2DC67 /* TeamIcon.swift */; };
+		33262FB7F3FF3DAE599D703E909F4130 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8F709E3C648DCC85A4EC52E92823A1 /* String+File.swift */; };
+		34D5A7273FBF37FE1F247EE3B5A15AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		391778465FCC61BAC268B2FF2B116ED8 /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E870F0A7587CBFFD49573112FD6F34 /* String+BASE64.swift */; };
+		3B14B5E9C8F5179BCBA1194B4FBF5907 /* WebhookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD14CB7373B001AF578A1820B89F3321 /* WebhookRequest.swift */; };
+		3F938F858EEF15B8EA8B709F1FFCF1F5 /* EventDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B50485D27B87917837034C80798DF8 /* EventDelegate.swift */; };
+		4028DCEEF03724E15D88C8737D83B58E /* Client+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5789755F1833CDD9CF1BD694EBBAC /* Client+Utilities.swift */; };
+		40376E6CD9B65454857AD7A9A71DA8AA /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B366A77F719489C3AA8F52A6C413E /* HttpServerIO.swift */; };
+		49364EA950A4CEC7258FC1B596282176 /* MessageActionResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D687E4B0982C295890BAD5943E1964 /* MessageActionResponder.swift */; };
+		49A5E6EDD7F7112244E823FEAF65F0F8 /* Swifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE032451C86007AE40F1CCB869B1220 /* Swifter.framework */; };
+		4C3A70D441E39E92B9AFE5CD5C303145 /* CustomProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D717ECEF8DC6BC9562806083C794E52C /* CustomProfile.swift */; };
+		4EBB9323224865D5074B060D22C8CBE8 /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D474852CB3914752221232ED6A6A2302 /* String+Misc.swift */; };
+		5596E92515060947F26CA547A3CEAB09 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA84948E1C54980BBF02DC13B0C43DF9 /* HttpRouter.swift */; };
+		570017CEA108CB11872E137FEC8E071C /* Pods-Supportal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72963F7D14591945577513ABE3EDB187 /* Pods-Supportal-dummy.m */; };
+		5F06A88DE30D31259044147B4C58074D /* Reaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D73BCDF28FE1A0B3FB77908EBE2B3 /* Reaction.swift */; };
+		621D90024EE5A0514604A1760B13309A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9907F748B9013A2D5862917F75FE2AA0 /* Message.swift */; };
+		62EF72CBA80E3C9C584D369A39335396 /* WebhookServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706584FDF931A3BB708D1062741E0777 /* WebhookServer.swift */; };
+		6467EEA906A273A76D63B4DB79B6B6C2 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6427CD116B6A2B88BA8EEFC14EAA6CAC /* DemoServer.swift */; };
+		66B64440093E7ADD86C43582A48D37F0 /* OAuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF58A653F6816B6D3E6057F7BE512CD /* OAuthResponse.swift */; };
+		6864C27E00E1894E0B0D8FEE19060F53 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E31DC434E01684F8839C5DEB4203DE /* Action.swift */; };
+		6884E31CCF447B6126E980B6A6D1329F /* AuthorizeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E67B10AC94D633D187E75CEBE8012 /* AuthorizeResponse.swift */; };
+		69DC7A1E29D17893D4AD8CF3FBBE2E0A /* Errno.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE507E725C4C8BFBE6A99ACFEF25EF /* Errno.swift */; };
+		6A6A2646C146C5D5EDAC9FF226CF1260 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05861921929DD79260BD243678500B18 /* HttpServer.swift */; };
+		72E346EF266D21C79C691D933347758B /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DFD08AF0E0E46DD3C869097C29071 /* Team.swift */; };
+		736FCEA3BD19739973AE6680B0D57D8C /* MessageActionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3E63DC9E8D1D42E112E5C9D4D6AB34 /* MessageActionRequest.swift */; };
+		74EC7C1384D9D0F8007ACB23BE6DC2C2 /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D39CEAF87E6FF6C5C169C47F69DE39 /* Swifter-dummy.m */; };
+		7521F63055CFF1A7B50D0ADBFDB51D3E /* Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9FE8D8B8FEE56148180E4FCEBF153 /* Scope.swift */; };
+		7578A0440C1AD1DA4945161AA6846F23 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC5421CEEFBF4DAB733749C43494119 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7760FED42CA6CF881016EF2E1A969997 /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284AF5AD5CDE4674D5CBABE2704FD31 /* UserGroup.swift */; };
+		7A1CCF49B55E4437F8541011F6C21A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		7D0C8A154FB30AD37541C846315975AA /* Pods-SupportalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E15E0BEB61CC7F6B23FF6D75CE93A0D8 /* Pods-SupportalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EA970DE117C640A0E35730BF9F699C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE29202A6AE8A274F31B713A65494F /* Extensions.swift */; };
+		8566AECE60096F9D71787B2F125FB10B /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE03255B9B15DC5F13B95CA947CFDDF /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		88612EE0CD6ED86162A27DA1833F57FB /* CustomProfileField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956220313A74E6DDF072248CDAA198B /* CustomProfileField.swift */; };
+		892E8799D8F0EE02E0371E77C45BA245 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4D058377893CCD88C394E7EB26F94 /* Topic.swift */; };
+		8B2D1E882AB8E5336488BB140F391124 /* Client+EventHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4B3D79142B0AE8AF7EE37C554A238 /* Client+EventHandling.swift */; };
+		8BC4DDB9FD22DD8BBAC8DDBCF61063F7 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E36197E0CEF57976B4C2A30A8B65C606 /* Starscream-dummy.m */; };
+		8E9D607690D93E64D357F1DB64E92FAF /* SlackKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F52E5A4D161CFA011E560277BD0D1 /* SlackKit-dummy.m */; };
+		93675E1919371123EA98F596F3D9E3F5 /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B382BF07788AEC6C162DDF4FD4278 /* WebSockets.swift */; };
+		97BB3FE1D1607082055E0FA0A59A0ABF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E8CE8237869E53CDFF1B3BF452FB81 /* Event.swift */; };
+		9848F6FF03C0DDFA8479344436650D8A /* Pods-SupportalUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E31BFC09A6C0C233D81142C53F92B24 /* Pods-SupportalUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		988DD82E04CA5CA6353C1BC09A375CD0 /* SlackKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD5FD1E4F7F84A8BAE93510D3D5E58C /* SlackKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB209A224AF68CB274D7B370809212A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0AD0DE9A006D3E0FF05854EE426B55 /* History.swift */; };
+		9F95120057AF70382B4634E587AEBD2B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C7554696C043B2F1DD24269FAE42C4 /* Comment.swift */; };
+		A3AB7E3FF46124174F4D48B945E1370B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EE17ADE5322C8AD912BFB90558FD3 /* Client.swift */; };
+		A5D6C5FF526AC250867782F327159641 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE8198232A45108F6710C0C4F6C0B9 /* HttpParser.swift */; };
+		ACD175D58E08A0D289F824056373CC3B /* Edited.swift in Sources */ = {isa = PBXBuildFile; fileRef = B063505042ED7C6392A3AD2C72A6F565 /* Edited.swift */; };
+		AD2B08B4BFA3375806C30656B91149EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		AD6B2B200517F8DF5BFF4532C592D0DF /* SlackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81003B89E8DDF25EC2B8D97180CB290D /* SlackError.swift */; };
+		BB8A48DCB5B5C8FB9E8FB3C8177A96F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		BE3C38702078735AAA05EAE677F8DBB9 /* Client+EventDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7B470A31C62DF963F981D9ACA5A2F /* Client+EventDispatching.swift */; };
+		BEB0348F0D314F546DE6DC4E73B9A348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		C344CDDD290B585800CE698C41F0BE33 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501218D7EC81BDD51BD0B1D93BD2A5F /* HttpRequest.swift */; };
+		C57AB25EDDFD90A5F6D094B60D73B0DC /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19F38EFF2A037A56A24EE3A75E6456 /* Files.swift */; };
+		C947D843C4E15A0EBCD6A0184CBE50B6 /* Socket+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F168F574BD27A08F0F0913ECD97A1C /* Socket+Server.swift */; };
+		C975FCAE8041D0BF513E2D1F504DDB5C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A5E9DDBBAC1EDCE8D472E2112DE157 /* Server.swift */; };
+		CACB6DD9AC2EB825BBB8952ED14F1234 /* ClientOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3786AF0FE318E32183EFF70936DE48 /* ClientOptions.swift */; };
+		CDE21D7BAC6A45CB31FC50E8DF3B8272 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC6FEE9E93296F361E4448AA92C88D7 /* Starscream.framework */; };
+		D7F1AC2F9E9F97AC95334F8D9B663580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */; };
+		DB2A3DDC93F77A29E606454F0230EE48 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E9A04AC50AC0226E25CC6CF72F53D4 /* File.swift */; };
+		E4D5DF7DE56E6BF3DD898C220EC53DCD /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C59F30671AC5E15A81919CF862EBF7 /* String+SHA1.swift */; };
+		E8C0C91A29BC8D7047659044A93B57CB /* IncomingWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9D57B578EB2127E9BF33ACD717F29 /* IncomingWebhook.swift */; };
+		E94D1F6A2B51190076C7012131E252A6 /* Pods-SupportalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABEAD60B8E60F3DAE047C543F586990 /* Pods-SupportalTests-dummy.m */; };
+		EE1E9564ABB2079A98DF84DFEC34656F /* DoNotDisturbStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9027D656DCA730DBF8C0D4498D454B31 /* DoNotDisturbStatus.swift */; };
+		EE60E8E6D3D5452DBC6CE60A400AEB0F /* AuthorizeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69324C214F39D7A2A41A62F83208CE4 /* AuthorizeRequest.swift */; };
+		F130E20BD8C41C69C9D73FC41FBA1E98 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969CBC7008C630331A69ED48C760DA4 /* WebAPI.swift */; };
+		F6D7DAF75FF066EB7E9A38B3DEBC53D8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F83E56764FCD2FB1AA7D8ED017D37 /* Item.swift */; };
+		F8182C5D2077F8D8EDD3E2FA54C186AA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF3E72BBDB330DC2DC4E2671865523 /* Response.swift */; };
+		FDCA2390BEF70CD6315853EB0BBEF283 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51B602A0D7BA1BCDC5E11DEFDB5D04 /* Process.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAE9A21F2841712433ACBD78CAD4AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8384056C027269CCA515B306CC85D6C;
+			remoteInfo = Swifter;
+		};
+		5A92413F7AC32CA4514B9D5E5DD7DABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474A9C1F19E6FD183BD71EA1D6F4BB3A;
+			remoteInfo = Starscream;
+		};
+		5DB4A8F9C261ED06867E20C66E07780D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8384056C027269CCA515B306CC85D6C;
+			remoteInfo = Swifter;
+		};
+		A0CE32426F51B0E79CC83CD888948695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474A9C1F19E6FD183BD71EA1D6F4BB3A;
+			remoteInfo = Starscream;
+		};
+		F3A32693DE0EE20C86DA5A439732171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E7BA1B32F2A2B8E16C87A72CB211DA;
+			remoteInfo = SlackKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E870F0A7587CBFFD49573112FD6F34 /* String+BASE64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+BASE64.swift"; path = "Sources/String+BASE64.swift"; sourceTree = "<group>"; };
+		049B366A77F719489C3AA8F52A6C413E /* HttpServerIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServerIO.swift; path = Sources/HttpServerIO.swift; sourceTree = "<group>"; };
+		05861921929DD79260BD243678500B18 /* HttpServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServer.swift; path = Sources/HttpServer.swift; sourceTree = "<group>"; };
+		094B382BF07788AEC6C162DDF4FD4278 /* WebSockets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSockets.swift; path = Sources/WebSockets.swift; sourceTree = "<group>"; };
+		0BDF3E72BBDB330DC2DC4E2671865523 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = SlackKit/Sources/Response.swift; sourceTree = "<group>"; };
+		0CE968850597C78BD650C1A6FCFE459D /* Pods-SupportalTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportalTests-resources.sh"; sourceTree = "<group>"; };
+		0E31BFC09A6C0C233D81142C53F92B24 /* Pods-SupportalUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SupportalUITests-umbrella.h"; sourceTree = "<group>"; };
+		0EE987595E80DC25016C5FC272DCA8EB /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = SlackKit/Sources/Channel.swift; sourceTree = "<group>"; };
+		165D73BCDF28FE1A0B3FB77908EBE2B3 /* Reaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reaction.swift; path = SlackKit/Sources/Reaction.swift; sourceTree = "<group>"; };
+		191EE17ADE5322C8AD912BFB90558FD3 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = SlackKit/Sources/Client.swift; sourceTree = "<group>"; };
+		1A969A497F587576FABECF4D5AAA9307 /* Pods_Supportal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Supportal.framework; path = "Pods-Supportal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0F0EE713F346C06737A546EEE5E408 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		1D2954C1829295C0436F481F735EA581 /* SlackKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlackKit.xcconfig; sourceTree = "<group>"; };
+		1D503B24AC9BBE3E956184A65EB6D46B /* Pods-SupportalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E474EC06C01210205FC4064144C823E /* Pods-Supportal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supportal-frameworks.sh"; sourceTree = "<group>"; };
+		20E9A04AC50AC0226E25CC6CF72F53D4 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = SlackKit/Sources/File.swift; sourceTree = "<group>"; };
+		25F89880E1158EEA750AE38304250B76 /* NetworkInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkInterface.swift; path = SlackKit/Sources/NetworkInterface.swift; sourceTree = "<group>"; };
+		27B51869DA551B8D44C6043C07FF655E /* Pods-SupportalTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportalTests-frameworks.sh"; sourceTree = "<group>"; };
+		2956220313A74E6DDF072248CDAA198B /* CustomProfileField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomProfileField.swift; path = SlackKit/Sources/CustomProfileField.swift; sourceTree = "<group>"; };
+		29A39AEB322C663D6AC7BF185A2B9FB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A75D5CBD13DCA358FBAEC16B6AC1B28 /* Attachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attachment.swift; path = SlackKit/Sources/Attachment.swift; sourceTree = "<group>"; };
+		2C19F38EFF2A037A56A24EE3A75E6456 /* Files.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Files.swift; path = Sources/Files.swift; sourceTree = "<group>"; };
+		2C5F83E56764FCD2FB1AA7D8ED017D37 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = SlackKit/Sources/Item.swift; sourceTree = "<group>"; };
+		305B6C302FAAD62C7B426A74D965E50B /* MessageActionServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageActionServer.swift; path = SlackKit/Sources/MessageActionServer.swift; sourceTree = "<group>"; };
+		32BCD4D521EB3F1E05C123E69FAB87BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E28F4E7411FDDF6C4D9BC90F7C4568 /* Pods-SupportalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SupportalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3501218D7EC81BDD51BD0B1D93BD2A5F /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = Sources/HttpRequest.swift; sourceTree = "<group>"; };
+		3AF3EC78AA74E7254763DBF17170ECD0 /* Pods-SupportalUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SupportalUITests.modulemap"; sourceTree = "<group>"; };
+		3C2E67B10AC94D633D187E75CEBE8012 /* AuthorizeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizeResponse.swift; path = SlackKit/Sources/AuthorizeResponse.swift; sourceTree = "<group>"; };
+		3E0AD0DE9A006D3E0FF05854EE426B55 /* History.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = History.swift; path = SlackKit/Sources/History.swift; sourceTree = "<group>"; };
+		3ECD86DEC13C37FC642EDD3FFA24B8B0 /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
+		42D687E4B0982C295890BAD5943E1964 /* MessageActionResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageActionResponder.swift; path = SlackKit/Sources/MessageActionResponder.swift; sourceTree = "<group>"; };
+		46760BAB14ACA36E9005C7A45A385D5B /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		471ACCBF2B1CA4904E51DE112DA229A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A7937BAACA51A80F0F2BC298AC8D60 /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
+		48A4D058377893CCD88C394E7EB26F94 /* Topic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Topic.swift; path = SlackKit/Sources/Topic.swift; sourceTree = "<group>"; };
+		49AF8A5CE441A8879872C9DEA94B8AD2 /* SlackKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlackKit.modulemap; sourceTree = "<group>"; };
+		4A90F0ADCC0E3DBCDDBCBF85C0E6987D /* AttachmentField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttachmentField.swift; path = SlackKit/Sources/AttachmentField.swift; sourceTree = "<group>"; };
+		4BC488ABC76B1CA13258AD64D39DCC20 /* Pods-Supportal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supportal.release.xcconfig"; sourceTree = "<group>"; };
+		52A755F0BB056466301534EEB7EC0220 /* Pods-Supportal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Supportal-resources.sh"; sourceTree = "<group>"; };
+		5595C912115D0D333EA84A7D737FCF49 /* Pods_SupportalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SupportalUITests.framework; path = "Pods-SupportalUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ED6BC753CA45A377FEFF7F550C92B2 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5629C8CAFE57442E98E5BDF1D62C7F91 /* OAuthServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthServer.swift; path = SlackKit/Sources/OAuthServer.swift; sourceTree = "<group>"; };
+		56E31DC434E01684F8839C5DEB4203DE /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = SlackKit/Sources/Action.swift; sourceTree = "<group>"; };
+		5C3E63DC9E8D1D42E112E5C9D4D6AB34 /* MessageActionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageActionRequest.swift; path = SlackKit/Sources/MessageActionRequest.swift; sourceTree = "<group>"; };
+		5F3786AF0FE318E32183EFF70936DE48 /* ClientOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientOptions.swift; path = SlackKit/Sources/ClientOptions.swift; sourceTree = "<group>"; };
+		5FD745BB943F4B53F1C14C25BD3EBB7E /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = Sources/HttpResponse.swift; sourceTree = "<group>"; };
+		5FF58A653F6816B6D3E6057F7BE512CD /* OAuthResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthResponse.swift; path = SlackKit/Sources/OAuthResponse.swift; sourceTree = "<group>"; };
+		6427CD116B6A2B88BA8EEFC14EAA6CAC /* DemoServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoServer.swift; path = Sources/DemoServer.swift; sourceTree = "<group>"; };
+		646DFD08AF0E0E46DD3C869097C29071 /* Team.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Team.swift; path = SlackKit/Sources/Team.swift; sourceTree = "<group>"; };
+		64AE8198232A45108F6710C0C4F6C0B9 /* HttpParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpParser.swift; path = Sources/HttpParser.swift; sourceTree = "<group>"; };
+		6969CBC7008C630331A69ED48C760DA4 /* WebAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAPI.swift; path = SlackKit/Sources/WebAPI.swift; sourceTree = "<group>"; };
+		700CFFB6229F09BECB98B1E4447C91AF /* Pods-Supportal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supportal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		706584FDF931A3BB708D1062741E0777 /* WebhookServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebhookServer.swift; path = SlackKit/Sources/WebhookServer.swift; sourceTree = "<group>"; };
+		714224E03546807B082A79106F2AE6C9 /* Socket+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+File.swift"; path = "Sources/Socket+File.swift"; sourceTree = "<group>"; };
+		727781F0510251964C71D1AF35ED09A0 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = SlackKit/Sources/User.swift; sourceTree = "<group>"; };
+		72963F7D14591945577513ABE3EDB187 /* Pods-Supportal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supportal-dummy.m"; sourceTree = "<group>"; };
+		75E446150C6203C37E4575AD938525E9 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		7C8F709E3C648DCC85A4EC52E92823A1 /* String+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+File.swift"; path = "Sources/String+File.swift"; sourceTree = "<group>"; };
+		7EE032451C86007AE40F1CCB869B1220 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81003B89E8DDF25EC2B8D97180CB290D /* SlackError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlackError.swift; path = SlackKit/Sources/SlackError.swift; sourceTree = "<group>"; };
+		81E5407250740E32424ADCE0C0841B1E /* Bot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bot.swift; path = SlackKit/Sources/Bot.swift; sourceTree = "<group>"; };
+		8284AF5AD5CDE4674D5CBABE2704FD31 /* UserGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserGroup.swift; path = SlackKit/Sources/UserGroup.swift; sourceTree = "<group>"; };
+		82AAC32B8ED0CFCF4F1B483F96222117 /* Pods-SupportalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportalTests.release.xcconfig"; sourceTree = "<group>"; };
+		82B3A2EE6A5D2C83F7C6C0D191815CEB /* Pods-Supportal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supportal-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E9D57B578EB2127E9BF33ACD717F29 /* IncomingWebhook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IncomingWebhook.swift; path = SlackKit/Sources/IncomingWebhook.swift; sourceTree = "<group>"; };
+		8AD5FD1E4F7F84A8BAE93510D3D5E58C /* SlackKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackKit-umbrella.h"; sourceTree = "<group>"; };
+		8CC5421CEEFBF4DAB733749C43494119 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		8EF876448E1192360ADF9AE1EC01F463 /* Pods-SupportalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SupportalTests.modulemap"; sourceTree = "<group>"; };
+		9027D656DCA730DBF8C0D4498D454B31 /* DoNotDisturbStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoNotDisturbStatus.swift; path = SlackKit/Sources/DoNotDisturbStatus.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D5789755F1833CDD9CF1BD694EBBAC /* Client+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Client+Utilities.swift"; path = "SlackKit/Sources/Client+Utilities.swift"; sourceTree = "<group>"; };
+		9907F748B9013A2D5862917F75FE2AA0 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = SlackKit/Sources/Message.swift; sourceTree = "<group>"; };
+		99D39CEAF87E6FF6C5C169C47F69DE39 /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		A1C59F30671AC5E15A81919CF862EBF7 /* String+SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SHA1.swift"; path = "Sources/String+SHA1.swift"; sourceTree = "<group>"; };
+		A4FC735D4A7BAC83840F95832EAE5C3A /* SlackKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlackKit.framework; path = SlackKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA05B1AFFDCB48EAEFC61AF9DBB7FF76 /* Pods-Supportal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Supportal.modulemap"; sourceTree = "<group>"; };
+		AAE1BEAC7A5BDC8964AD1C7C6B5EAC93 /* Pods-SupportalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SupportalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADE03255B9B15DC5F13B95CA947CFDDF /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		B063505042ED7C6392A3AD2C72A6F565 /* Edited.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edited.swift; path = SlackKit/Sources/Edited.swift; sourceTree = "<group>"; };
+		B0A7B470A31C62DF963F981D9ACA5A2F /* Client+EventDispatching.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Client+EventDispatching.swift"; path = "SlackKit/Sources/Client+EventDispatching.swift"; sourceTree = "<group>"; };
+		B1A30B76528CAB38392824C6BF968F1C /* Pods_SupportalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SupportalTests.framework; path = "Pods-SupportalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EE29202A6AE8A274F31B713A65494F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SlackKit/Sources/Extensions.swift; sourceTree = "<group>"; };
+		B59DFA4BBC09372442F165E990E2DC67 /* TeamIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamIcon.swift; path = SlackKit/Sources/TeamIcon.swift; sourceTree = "<group>"; };
+		B5F168F574BD27A08F0F0913ECD97A1C /* Socket+Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Server.swift"; path = "Sources/Socket+Server.swift"; sourceTree = "<group>"; };
+		B69324C214F39D7A2A41A62F83208CE4 /* AuthorizeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizeRequest.swift; path = SlackKit/Sources/AuthorizeRequest.swift; sourceTree = "<group>"; };
+		BCA63AEE474DC33350483EC56035DD62 /* Pods-Supportal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supportal.debug.xcconfig"; sourceTree = "<group>"; };
+		BD683D0B9ED7E77592B3C39A7C8A5A95 /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Swifter.modulemap; sourceTree = "<group>"; };
+		C2E8CE8237869E53CDFF1B3BF452FB81 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = SlackKit/Sources/Event.swift; sourceTree = "<group>"; };
+		C70FA5F1A8B7F0E6E94871C0E96569CD /* Pods-SupportalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9E832AD1B706D4E74ADA0352B1FF7FE /* SlackKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackKit-prefix.pch"; sourceTree = "<group>"; };
+		CC08563B9F92C2637FAB9EB5F33829BE /* Pods-SupportalUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportalUITests-resources.sh"; sourceTree = "<group>"; };
+		D07619A1533BB978CF143329EADC57EC /* Scopes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scopes.swift; path = Sources/Scopes.swift; sourceTree = "<group>"; };
+		D092D4503A546D47A07CC717D57641F3 /* Pods-Supportal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Supportal-umbrella.h"; sourceTree = "<group>"; };
+		D0A4B3D79142B0AE8AF7EE37C554A238 /* Client+EventHandling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Client+EventHandling.swift"; path = "SlackKit/Sources/Client+EventHandling.swift"; sourceTree = "<group>"; };
+		D2F00C30CF33B623B3DF7FDB4A013A4E /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
+		D474852CB3914752221232ED6A6A2302 /* String+Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Misc.swift"; path = "Sources/String+Misc.swift"; sourceTree = "<group>"; };
+		D717ECEF8DC6BC9562806083C794E52C /* CustomProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomProfile.swift; path = SlackKit/Sources/CustomProfile.swift; sourceTree = "<group>"; };
+		D85D0DD4977DC958EFD688CF12122FE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACE507E725C4C8BFBE6A99ACFEF25EF /* Errno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errno.swift; path = Sources/Errno.swift; sourceTree = "<group>"; };
+		DD14CB7373B001AF578A1820B89F3321 /* WebhookRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebhookRequest.swift; path = SlackKit/Sources/WebhookRequest.swift; sourceTree = "<group>"; };
+		DF1F52E5A4D161CFA011E560277BD0D1 /* SlackKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlackKit-dummy.m"; sourceTree = "<group>"; };
+		E15E0BEB61CC7F6B23FF6D75CE93A0D8 /* Pods-SupportalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SupportalTests-umbrella.h"; sourceTree = "<group>"; };
+		E29509B6E1D55F7DEC3C9055196603D6 /* Swifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.xcconfig; sourceTree = "<group>"; };
+		E2A5E9DDBBAC1EDCE8D472E2112DE157 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = SlackKit/Sources/Server.swift; sourceTree = "<group>"; };
+		E2D9FE8D8B8FEE56148180E4FCEBF153 /* Scope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scope.swift; path = SlackKit/Sources/Scope.swift; sourceTree = "<group>"; };
+		E36197E0CEF57976B4C2A30A8B65C606 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		E52960CBEB2C70230B6917CD0F110CB7 /* Pods-SupportalUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SupportalUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5B50485D27B87917837034C80798DF8 /* EventDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventDelegate.swift; path = SlackKit/Sources/EventDelegate.swift; sourceTree = "<group>"; };
+		E7D1E2E4FB28E9B6E61E5C27878D51D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA170057347E05E55EA525E040A9D58C /* Pods-SupportalUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SupportalUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA84948E1C54980BBF02DC13B0C43DF9 /* HttpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRouter.swift; path = Sources/HttpRouter.swift; sourceTree = "<group>"; };
+		EABEAD60B8E60F3DAE047C543F586990 /* Pods-SupportalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SupportalTests-dummy.m"; sourceTree = "<group>"; };
+		EB51B602A0D7BA1BCDC5E11DEFDB5D04 /* Process.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Process.swift; path = Sources/Process.swift; sourceTree = "<group>"; };
+		EDC61ED4989B9236C6DFDA11771DB8FD /* Pods-SupportalUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SupportalUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0C7554696C043B2F1DD24269FAE42C4 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = SlackKit/Sources/Comment.swift; sourceTree = "<group>"; };
+		F4BE9F1AF7B50A55E24D4F79E341BF58 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		F79520173FE32D22B34C5BB9BA3FAB59 /* Pods-SupportalUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SupportalUITests-dummy.m"; sourceTree = "<group>"; };
+		F921613632901F220F5B37CB871BA0D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB19D730153EE143730F24DF0E9CDBC2 /* Pods-SupportalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SupportalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCC6FEE9E93296F361E4448AA92C88D7 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEB2251A6DCEF5360994A2C57A17DA4 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB5B7A8904746819A7CD71846345174 /* SlackKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlackKit.swift; path = SlackKit/Sources/SlackKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245EFD16A6C33B4591C4A2BC31869246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB0348F0D314F546DE6DC4E73B9A348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE97A5BA4164E74D026985858BFF1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D5A7273FBF37FE1F247EE3B5A15AD1 /* Foundation.framework in Frameworks */,
+				CDE21D7BAC6A45CB31FC50E8DF3B8272 /* Starscream.framework in Frameworks */,
+				49A5E6EDD7F7112244E823FEAF65F0F8 /* Swifter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDF96686BB659861EA22351FAEDF905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1CCF49B55E4437F8541011F6C21A97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B8FD5CAD28AC6E9AFE6D6736A2DF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8A48DCB5B5C8FB9E8FB3C8177A96F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BD972BA413BF72E8B7BDFEDA5BCE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F1AC2F9E9F97AC95334F8D9B663580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70DE1F212B0B381226202744C9069C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2B08B4BFA3375806C30656B91149EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149B88AE9B1924154F8DD274B680739B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E095DB6728B9627D491AD997AC09C13 /* Pods-Supportal */,
+				4B35A65096B2AEF87C85234F7006357F /* Pods-SupportalTests */,
+				2F6366AA74BE98BA1182906978996D3E /* Pods-SupportalUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2544BD154B5AA39D932190F4463C9D0A /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				ADE03255B9B15DC5F13B95CA947CFDDF /* SSLSecurity.swift */,
+				75E446150C6203C37E4575AD938525E9 /* WebSocket.swift */,
+				31CEAD02F63D5D56E8F0FE084DA5DFE5 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		2F6366AA74BE98BA1182906978996D3E /* Pods-SupportalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				471ACCBF2B1CA4904E51DE112DA229A0 /* Info.plist */,
+				3AF3EC78AA74E7254763DBF17170ECD0 /* Pods-SupportalUITests.modulemap */,
+				EDC61ED4989B9236C6DFDA11771DB8FD /* Pods-SupportalUITests-acknowledgements.markdown */,
+				E52960CBEB2C70230B6917CD0F110CB7 /* Pods-SupportalUITests-acknowledgements.plist */,
+				F79520173FE32D22B34C5BB9BA3FAB59 /* Pods-SupportalUITests-dummy.m */,
+				EA170057347E05E55EA525E040A9D58C /* Pods-SupportalUITests-frameworks.sh */,
+				CC08563B9F92C2637FAB9EB5F33829BE /* Pods-SupportalUITests-resources.sh */,
+				0E31BFC09A6C0C233D81142C53F92B24 /* Pods-SupportalUITests-umbrella.h */,
+				1D503B24AC9BBE3E956184A65EB6D46B /* Pods-SupportalUITests.debug.xcconfig */,
+				FB19D730153EE143730F24DF0E9CDBC2 /* Pods-SupportalUITests.release.xcconfig */,
+			);
+			name = "Pods-SupportalUITests";
+			path = "Target Support Files/Pods-SupportalUITests";
+			sourceTree = "<group>";
+		};
+		31CEAD02F63D5D56E8F0FE084DA5DFE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32BCD4D521EB3F1E05C123E69FAB87BD /* Info.plist */,
+				D2F00C30CF33B623B3DF7FDB4A013A4E /* Starscream.modulemap */,
+				46760BAB14ACA36E9005C7A45A385D5B /* Starscream.xcconfig */,
+				E36197E0CEF57976B4C2A30A8B65C606 /* Starscream-dummy.m */,
+				F4BE9F1AF7B50A55E24D4F79E341BF58 /* Starscream-prefix.pch */,
+				8CC5421CEEFBF4DAB733749C43494119 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		462F8851E164DDE12FBF1FB7AE41499F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				467F17F773CF2C834E610A9E29E8DF95 /* SlackKit */,
+				2544BD154B5AA39D932190F4463C9D0A /* Starscream */,
+				F10331341FA2B6E6E38906A33B1D6444 /* Swifter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		467F17F773CF2C834E610A9E29E8DF95 /* SlackKit */ = {
+			isa = PBXGroup;
+			children = (
+				56E31DC434E01684F8839C5DEB4203DE /* Action.swift */,
+				2A75D5CBD13DCA358FBAEC16B6AC1B28 /* Attachment.swift */,
+				4A90F0ADCC0E3DBCDDBCBF85C0E6987D /* AttachmentField.swift */,
+				B69324C214F39D7A2A41A62F83208CE4 /* AuthorizeRequest.swift */,
+				3C2E67B10AC94D633D187E75CEBE8012 /* AuthorizeResponse.swift */,
+				81E5407250740E32424ADCE0C0841B1E /* Bot.swift */,
+				0EE987595E80DC25016C5FC272DCA8EB /* Channel.swift */,
+				191EE17ADE5322C8AD912BFB90558FD3 /* Client.swift */,
+				B0A7B470A31C62DF963F981D9ACA5A2F /* Client+EventDispatching.swift */,
+				D0A4B3D79142B0AE8AF7EE37C554A238 /* Client+EventHandling.swift */,
+				94D5789755F1833CDD9CF1BD694EBBAC /* Client+Utilities.swift */,
+				5F3786AF0FE318E32183EFF70936DE48 /* ClientOptions.swift */,
+				F0C7554696C043B2F1DD24269FAE42C4 /* Comment.swift */,
+				D717ECEF8DC6BC9562806083C794E52C /* CustomProfile.swift */,
+				2956220313A74E6DDF072248CDAA198B /* CustomProfileField.swift */,
+				9027D656DCA730DBF8C0D4498D454B31 /* DoNotDisturbStatus.swift */,
+				B063505042ED7C6392A3AD2C72A6F565 /* Edited.swift */,
+				C2E8CE8237869E53CDFF1B3BF452FB81 /* Event.swift */,
+				E5B50485D27B87917837034C80798DF8 /* EventDelegate.swift */,
+				B4EE29202A6AE8A274F31B713A65494F /* Extensions.swift */,
+				20E9A04AC50AC0226E25CC6CF72F53D4 /* File.swift */,
+				3E0AD0DE9A006D3E0FF05854EE426B55 /* History.swift */,
+				84E9D57B578EB2127E9BF33ACD717F29 /* IncomingWebhook.swift */,
+				2C5F83E56764FCD2FB1AA7D8ED017D37 /* Item.swift */,
+				9907F748B9013A2D5862917F75FE2AA0 /* Message.swift */,
+				5C3E63DC9E8D1D42E112E5C9D4D6AB34 /* MessageActionRequest.swift */,
+				42D687E4B0982C295890BAD5943E1964 /* MessageActionResponder.swift */,
+				305B6C302FAAD62C7B426A74D965E50B /* MessageActionServer.swift */,
+				25F89880E1158EEA750AE38304250B76 /* NetworkInterface.swift */,
+				5FF58A653F6816B6D3E6057F7BE512CD /* OAuthResponse.swift */,
+				5629C8CAFE57442E98E5BDF1D62C7F91 /* OAuthServer.swift */,
+				165D73BCDF28FE1A0B3FB77908EBE2B3 /* Reaction.swift */,
+				0BDF3E72BBDB330DC2DC4E2671865523 /* Response.swift */,
+				E2D9FE8D8B8FEE56148180E4FCEBF153 /* Scope.swift */,
+				E2A5E9DDBBAC1EDCE8D472E2112DE157 /* Server.swift */,
+				81003B89E8DDF25EC2B8D97180CB290D /* SlackError.swift */,
+				FFB5B7A8904746819A7CD71846345174 /* SlackKit.swift */,
+				646DFD08AF0E0E46DD3C869097C29071 /* Team.swift */,
+				B59DFA4BBC09372442F165E990E2DC67 /* TeamIcon.swift */,
+				48A4D058377893CCD88C394E7EB26F94 /* Topic.swift */,
+				727781F0510251964C71D1AF35ED09A0 /* User.swift */,
+				8284AF5AD5CDE4674D5CBABE2704FD31 /* UserGroup.swift */,
+				6969CBC7008C630331A69ED48C760DA4 /* WebAPI.swift */,
+				DD14CB7373B001AF578A1820B89F3321 /* WebhookRequest.swift */,
+				706584FDF931A3BB708D1062741E0777 /* WebhookServer.swift */,
+				BD06AB783CE42B937EF08102783B8A95 /* Support Files */,
+			);
+			name = SlackKit;
+			path = SlackKit;
+			sourceTree = "<group>";
+		};
+		4B35A65096B2AEF87C85234F7006357F /* Pods-SupportalTests */ = {
+			isa = PBXGroup;
+			children = (
+				29A39AEB322C663D6AC7BF185A2B9FB7 /* Info.plist */,
+				8EF876448E1192360ADF9AE1EC01F463 /* Pods-SupportalTests.modulemap */,
+				AAE1BEAC7A5BDC8964AD1C7C6B5EAC93 /* Pods-SupportalTests-acknowledgements.markdown */,
+				32E28F4E7411FDDF6C4D9BC90F7C4568 /* Pods-SupportalTests-acknowledgements.plist */,
+				EABEAD60B8E60F3DAE047C543F586990 /* Pods-SupportalTests-dummy.m */,
+				27B51869DA551B8D44C6043C07FF655E /* Pods-SupportalTests-frameworks.sh */,
+				0CE968850597C78BD650C1A6FCFE459D /* Pods-SupportalTests-resources.sh */,
+				E15E0BEB61CC7F6B23FF6D75CE93A0D8 /* Pods-SupportalTests-umbrella.h */,
+				C70FA5F1A8B7F0E6E94871C0E96569CD /* Pods-SupportalTests.debug.xcconfig */,
+				82AAC32B8ED0CFCF4F1B483F96222117 /* Pods-SupportalTests.release.xcconfig */,
+			);
+			name = "Pods-SupportalTests";
+			path = "Target Support Files/Pods-SupportalTests";
+			sourceTree = "<group>";
+		};
+		7AA114C2D6C6D6C951B66D51761C341A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A969A497F587576FABECF4D5AAA9307 /* Pods_Supportal.framework */,
+				B1A30B76528CAB38392824C6BF968F1C /* Pods_SupportalTests.framework */,
+				5595C912115D0D333EA84A7D737FCF49 /* Pods_SupportalUITests.framework */,
+				A4FC735D4A7BAC83840F95832EAE5C3A /* SlackKit.framework */,
+				FDEB2251A6DCEF5360994A2C57A17DA4 /* Starscream.framework */,
+				55ED6BC753CA45A377FEFF7F550C92B2 /* Swifter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AFABEA3ADE5EB352E54AF69298DB53DC /* Frameworks */,
+				462F8851E164DDE12FBF1FB7AE41499F /* Pods */,
+				7AA114C2D6C6D6C951B66D51761C341A /* Products */,
+				149B88AE9B1924154F8DD274B680739B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9695B06EC5D79754D9CCEFB5DCB46437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1E2E4FB28E9B6E61E5C27878D51D3 /* Info.plist */,
+				BD683D0B9ED7E77592B3C39A7C8A5A95 /* Swifter.modulemap */,
+				E29509B6E1D55F7DEC3C9055196603D6 /* Swifter.xcconfig */,
+				99D39CEAF87E6FF6C5C169C47F69DE39 /* Swifter-dummy.m */,
+				3ECD86DEC13C37FC642EDD3FFA24B8B0 /* Swifter-prefix.pch */,
+				47A7937BAACA51A80F0F2BC298AC8D60 /* Swifter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swifter";
+			sourceTree = "<group>";
+		};
+		9E095DB6728B9627D491AD997AC09C13 /* Pods-Supportal */ = {
+			isa = PBXGroup;
+			children = (
+				D85D0DD4977DC958EFD688CF12122FE4 /* Info.plist */,
+				AA05B1AFFDCB48EAEFC61AF9DBB7FF76 /* Pods-Supportal.modulemap */,
+				700CFFB6229F09BECB98B1E4447C91AF /* Pods-Supportal-acknowledgements.markdown */,
+				82B3A2EE6A5D2C83F7C6C0D191815CEB /* Pods-Supportal-acknowledgements.plist */,
+				72963F7D14591945577513ABE3EDB187 /* Pods-Supportal-dummy.m */,
+				1E474EC06C01210205FC4064144C823E /* Pods-Supportal-frameworks.sh */,
+				52A755F0BB056466301534EEB7EC0220 /* Pods-Supportal-resources.sh */,
+				D092D4503A546D47A07CC717D57641F3 /* Pods-Supportal-umbrella.h */,
+				BCA63AEE474DC33350483EC56035DD62 /* Pods-Supportal.debug.xcconfig */,
+				4BC488ABC76B1CA13258AD64D39DCC20 /* Pods-Supportal.release.xcconfig */,
+			);
+			name = "Pods-Supportal";
+			path = "Target Support Files/Pods-Supportal";
+			sourceTree = "<group>";
+		};
+		AFABEA3ADE5EB352E54AF69298DB53DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6FEE9E93296F361E4448AA92C88D7 /* Starscream.framework */,
+				7EE032451C86007AE40F1CCB869B1220 /* Swifter.framework */,
+				FF789081FE854040BB07616ECB07DCF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD06AB783CE42B937EF08102783B8A95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F921613632901F220F5B37CB871BA0D7 /* Info.plist */,
+				49AF8A5CE441A8879872C9DEA94B8AD2 /* SlackKit.modulemap */,
+				1D2954C1829295C0436F481F735EA581 /* SlackKit.xcconfig */,
+				DF1F52E5A4D161CFA011E560277BD0D1 /* SlackKit-dummy.m */,
+				C9E832AD1B706D4E74ADA0352B1FF7FE /* SlackKit-prefix.pch */,
+				8AD5FD1E4F7F84A8BAE93510D3D5E58C /* SlackKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlackKit";
+			sourceTree = "<group>";
+		};
+		F10331341FA2B6E6E38906A33B1D6444 /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				6427CD116B6A2B88BA8EEFC14EAA6CAC /* DemoServer.swift */,
+				DACE507E725C4C8BFBE6A99ACFEF25EF /* Errno.swift */,
+				2C19F38EFF2A037A56A24EE3A75E6456 /* Files.swift */,
+				64AE8198232A45108F6710C0C4F6C0B9 /* HttpParser.swift */,
+				3501218D7EC81BDD51BD0B1D93BD2A5F /* HttpRequest.swift */,
+				5FD745BB943F4B53F1C14C25BD3EBB7E /* HttpResponse.swift */,
+				EA84948E1C54980BBF02DC13B0C43DF9 /* HttpRouter.swift */,
+				05861921929DD79260BD243678500B18 /* HttpServer.swift */,
+				049B366A77F719489C3AA8F52A6C413E /* HttpServerIO.swift */,
+				EB51B602A0D7BA1BCDC5E11DEFDB5D04 /* Process.swift */,
+				D07619A1533BB978CF143329EADC57EC /* Scopes.swift */,
+				1B0F0EE713F346C06737A546EEE5E408 /* Socket.swift */,
+				714224E03546807B082A79106F2AE6C9 /* Socket+File.swift */,
+				B5F168F574BD27A08F0F0913ECD97A1C /* Socket+Server.swift */,
+				00E870F0A7587CBFFD49573112FD6F34 /* String+BASE64.swift */,
+				7C8F709E3C648DCC85A4EC52E92823A1 /* String+File.swift */,
+				D474852CB3914752221232ED6A6A2302 /* String+Misc.swift */,
+				A1C59F30671AC5E15A81919CF862EBF7 /* String+SHA1.swift */,
+				094B382BF07788AEC6C162DDF4FD4278 /* WebSockets.swift */,
+				9695B06EC5D79754D9CCEFB5DCB46437 /* Support Files */,
+			);
+			name = Swifter;
+			path = Swifter;
+			sourceTree = "<group>";
+		};
+		FF789081FE854040BB07616ECB07DCF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33A323DD843E43F7787E992B9B858FCA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07096A99DA06CD2B0C07C0D6EBB99DA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60BDD7D29940ED0221A4F19FC9FB2A /* Pods-Supportal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2DCDD04DD21200F8362D3679E9A652 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115685A67D27BEECF450BE6D11F6E7FB /* Swifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24643F88698E6D7FF4BF7FAF1D8D3895 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988DD82E04CA5CA6353C1BC09A375CD0 /* SlackKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33556D5F203668B76BF324278E758ECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7578A0440C1AD1DA4945161AA6846F23 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9998D5CC186585FE510D62FC65A37295 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9848F6FF03C0DDFA8479344436650D8A /* Pods-SupportalUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7515C3E97607E79E5E84A540737DB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C8A154FB30AD37541C846315975AA /* Pods-SupportalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0886097FEFF8C68C97F53AD99494C226 /* Pods-SupportalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E207262DB26A2C4CE66AAA9E3C7964A /* Build configuration list for PBXNativeTarget "Pods-SupportalTests" */;
+			buildPhases = (
+				D3B9172050956F865BC8BBACBD263FD6 /* Sources */,
+				C70DE1F212B0B381226202744C9069C1 /* Frameworks */,
+				AD7515C3E97607E79E5E84A540737DB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SupportalTests";
+			productName = "Pods-SupportalTests";
+			productReference = B1A30B76528CAB38392824C6BF968F1C /* Pods_SupportalTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		474A9C1F19E6FD183BD71EA1D6F4BB3A /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04514B6325A4B715E868D5F6F0069FC /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				EDA36EA313ED467A7D6FBD5773B08F83 /* Sources */,
+				74B8FD5CAD28AC6E9AFE6D6736A2DF8D /* Frameworks */,
+				33556D5F203668B76BF324278E758ECC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = FDEB2251A6DCEF5360994A2C57A17DA4 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65E7BA1B32F2A2B8E16C87A72CB211DA /* SlackKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD479717CBBB9BC0BEFBC9B67B4B2FFD /* Build configuration list for PBXNativeTarget "SlackKit" */;
+			buildPhases = (
+				7D412D939E62974A66E2AD26F5BF5EB1 /* Sources */,
+				4AE97A5BA4164E74D026985858BFF1A1 /* Frameworks */,
+				24643F88698E6D7FF4BF7FAF1D8D3895 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E03793A3467E953A48F23F65B991B8F /* PBXTargetDependency */,
+				DA3DAABBD7C96C125775C89E95E85AE3 /* PBXTargetDependency */,
+			);
+			name = SlackKit;
+			productName = SlackKit;
+			productReference = A4FC735D4A7BAC83840F95832EAE5C3A /* SlackKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BA0AF469B909EB7C7A992E180003988 /* Pods-Supportal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AD21F051A81C8FA4AE223E4BE7E986 /* Build configuration list for PBXNativeTarget "Pods-Supportal" */;
+			buildPhases = (
+				814FB208AEB2403221BB34D88BF5996B /* Sources */,
+				6DDF96686BB659861EA22351FAEDF905 /* Frameworks */,
+				07096A99DA06CD2B0C07C0D6EBB99DA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABB892E97A44E99135C59D83F98EEA6 /* PBXTargetDependency */,
+				99F217B1A103C1E423F72508A019A196 /* PBXTargetDependency */,
+				629DE966512C213EB869B8A89377B155 /* PBXTargetDependency */,
+			);
+			name = "Pods-Supportal";
+			productName = "Pods-Supportal";
+			productReference = 1A969A497F587576FABECF4D5AAA9307 /* Pods_Supportal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7B0CCD346CCB37A35F67B25378DDCB6 /* Pods-SupportalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E9640FE8A32CD8B4FDB68ED47CA321 /* Build configuration list for PBXNativeTarget "Pods-SupportalUITests" */;
+			buildPhases = (
+				CBD77EF410BB4ADB52E33EDCE4401FE3 /* Sources */,
+				245EFD16A6C33B4591C4A2BC31869246 /* Frameworks */,
+				9998D5CC186585FE510D62FC65A37295 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SupportalUITests";
+			productName = "Pods-SupportalUITests";
+			productReference = 5595C912115D0D333EA84A7D737FCF49 /* Pods_SupportalUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8384056C027269CCA515B306CC85D6C /* Swifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6A76628D7A30070E4ECCE61157D656 /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildPhases = (
+				2B112E493232E67F716DA02479A48CED /* Sources */,
+				C6BD972BA413BF72E8B7BDFEDA5BCE3C /* Frameworks */,
+				1D2DCDD04DD21200F8362D3679E9A652 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifter;
+			productName = Swifter;
+			productReference = 55ED6BC753CA45A377FEFF7F550C92B2 /* Swifter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7AA114C2D6C6D6C951B66D51761C341A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA0AF469B909EB7C7A992E180003988 /* Pods-Supportal */,
+				0886097FEFF8C68C97F53AD99494C226 /* Pods-SupportalTests */,
+				A7B0CCD346CCB37A35F67B25378DDCB6 /* Pods-SupportalUITests */,
+				65E7BA1B32F2A2B8E16C87A72CB211DA /* SlackKit */,
+				474A9C1F19E6FD183BD71EA1D6F4BB3A /* Starscream */,
+				E8384056C027269CCA515B306CC85D6C /* Swifter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B112E493232E67F716DA02479A48CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6467EEA906A273A76D63B4DB79B6B6C2 /* DemoServer.swift in Sources */,
+				69DC7A1E29D17893D4AD8CF3FBBE2E0A /* Errno.swift in Sources */,
+				C57AB25EDDFD90A5F6D094B60D73B0DC /* Files.swift in Sources */,
+				A5D6C5FF526AC250867782F327159641 /* HttpParser.swift in Sources */,
+				C344CDDD290B585800CE698C41F0BE33 /* HttpRequest.swift in Sources */,
+				31EE0E55D33F8C531876915A86839E26 /* HttpResponse.swift in Sources */,
+				5596E92515060947F26CA547A3CEAB09 /* HttpRouter.swift in Sources */,
+				6A6A2646C146C5D5EDAC9FF226CF1260 /* HttpServer.swift in Sources */,
+				40376E6CD9B65454857AD7A9A71DA8AA /* HttpServerIO.swift in Sources */,
+				FDCA2390BEF70CD6315853EB0BBEF283 /* Process.swift in Sources */,
+				2B2ECDED5E9DBF17DF29A5578A685A37 /* Scopes.swift in Sources */,
+				1D4E3DA3F3F311C86B75325423F661ED /* Socket+File.swift in Sources */,
+				C947D843C4E15A0EBCD6A0184CBE50B6 /* Socket+Server.swift in Sources */,
+				018B2853EB8E044260969412C6E15292 /* Socket.swift in Sources */,
+				391778465FCC61BAC268B2FF2B116ED8 /* String+BASE64.swift in Sources */,
+				33262FB7F3FF3DAE599D703E909F4130 /* String+File.swift in Sources */,
+				4EBB9323224865D5074B060D22C8CBE8 /* String+Misc.swift in Sources */,
+				E4D5DF7DE56E6BF3DD898C220EC53DCD /* String+SHA1.swift in Sources */,
+				74EC7C1384D9D0F8007ACB23BE6DC2C2 /* Swifter-dummy.m in Sources */,
+				93675E1919371123EA98F596F3D9E3F5 /* WebSockets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D412D939E62974A66E2AD26F5BF5EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6864C27E00E1894E0B0D8FEE19060F53 /* Action.swift in Sources */,
+				046787935A681E1A24B43EB632A3EE23 /* Attachment.swift in Sources */,
+				281F0889932568B11B804F156B3C7171 /* AttachmentField.swift in Sources */,
+				EE60E8E6D3D5452DBC6CE60A400AEB0F /* AuthorizeRequest.swift in Sources */,
+				6884E31CCF447B6126E980B6A6D1329F /* AuthorizeResponse.swift in Sources */,
+				1016D7F07AD5F7866C88764FE2186704 /* Bot.swift in Sources */,
+				12A113C48B4327189A1DBDC391BD7E0C /* Channel.swift in Sources */,
+				BE3C38702078735AAA05EAE677F8DBB9 /* Client+EventDispatching.swift in Sources */,
+				8B2D1E882AB8E5336488BB140F391124 /* Client+EventHandling.swift in Sources */,
+				4028DCEEF03724E15D88C8737D83B58E /* Client+Utilities.swift in Sources */,
+				A3AB7E3FF46124174F4D48B945E1370B /* Client.swift in Sources */,
+				CACB6DD9AC2EB825BBB8952ED14F1234 /* ClientOptions.swift in Sources */,
+				9F95120057AF70382B4634E587AEBD2B /* Comment.swift in Sources */,
+				4C3A70D441E39E92B9AFE5CD5C303145 /* CustomProfile.swift in Sources */,
+				88612EE0CD6ED86162A27DA1833F57FB /* CustomProfileField.swift in Sources */,
+				EE1E9564ABB2079A98DF84DFEC34656F /* DoNotDisturbStatus.swift in Sources */,
+				ACD175D58E08A0D289F824056373CC3B /* Edited.swift in Sources */,
+				97BB3FE1D1607082055E0FA0A59A0ABF /* Event.swift in Sources */,
+				3F938F858EEF15B8EA8B709F1FFCF1F5 /* EventDelegate.swift in Sources */,
+				7EA970DE117C640A0E35730BF9F699C6 /* Extensions.swift in Sources */,
+				DB2A3DDC93F77A29E606454F0230EE48 /* File.swift in Sources */,
+				9BB209A224AF68CB274D7B370809212A /* History.swift in Sources */,
+				E8C0C91A29BC8D7047659044A93B57CB /* IncomingWebhook.swift in Sources */,
+				F6D7DAF75FF066EB7E9A38B3DEBC53D8 /* Item.swift in Sources */,
+				621D90024EE5A0514604A1760B13309A /* Message.swift in Sources */,
+				736FCEA3BD19739973AE6680B0D57D8C /* MessageActionRequest.swift in Sources */,
+				49364EA950A4CEC7258FC1B596282176 /* MessageActionResponder.swift in Sources */,
+				3010DA2CE99AA909E7A1DECC45380916 /* MessageActionServer.swift in Sources */,
+				076794CF7D7D7EB0803818DA834B94AD /* NetworkInterface.swift in Sources */,
+				66B64440093E7ADD86C43582A48D37F0 /* OAuthResponse.swift in Sources */,
+				0E05F136AB3051338DC2EB54F0B81A83 /* OAuthServer.swift in Sources */,
+				5F06A88DE30D31259044147B4C58074D /* Reaction.swift in Sources */,
+				F8182C5D2077F8D8EDD3E2FA54C186AA /* Response.swift in Sources */,
+				7521F63055CFF1A7B50D0ADBFDB51D3E /* Scope.swift in Sources */,
+				C975FCAE8041D0BF513E2D1F504DDB5C /* Server.swift in Sources */,
+				AD6B2B200517F8DF5BFF4532C592D0DF /* SlackError.swift in Sources */,
+				8E9D607690D93E64D357F1DB64E92FAF /* SlackKit-dummy.m in Sources */,
+				1CF47FA0058B337C516CE88B2E258286 /* SlackKit.swift in Sources */,
+				72E346EF266D21C79C691D933347758B /* Team.swift in Sources */,
+				32DE889BB683876D17F249B4DE593658 /* TeamIcon.swift in Sources */,
+				892E8799D8F0EE02E0371E77C45BA245 /* Topic.swift in Sources */,
+				1380006467CD9272E966EDD3FC6502A6 /* User.swift in Sources */,
+				7760FED42CA6CF881016EF2E1A969997 /* UserGroup.swift in Sources */,
+				F130E20BD8C41C69C9D73FC41FBA1E98 /* WebAPI.swift in Sources */,
+				3B14B5E9C8F5179BCBA1194B4FBF5907 /* WebhookRequest.swift in Sources */,
+				62EF72CBA80E3C9C584D369A39335396 /* WebhookServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814FB208AEB2403221BB34D88BF5996B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570017CEA108CB11872E137FEC8E071C /* Pods-Supportal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD77EF410BB4ADB52E33EDCE4401FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B446F33DA4B719535CF22B5F04871A /* Pods-SupportalUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B9172050956F865BC8BBACBD263FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94D1F6A2B51190076C7012131E252A6 /* Pods-SupportalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA36EA313ED467A7D6FBD5773B08F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8566AECE60096F9D71787B2F125FB10B /* SSLSecurity.swift in Sources */,
+				8BC4DDB9FD22DD8BBAC8DDBCF61063F7 /* Starscream-dummy.m in Sources */,
+				316F7EBEF72F8F27D2706BA843845EDA /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ABB892E97A44E99135C59D83F98EEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlackKit;
+			target = 65E7BA1B32F2A2B8E16C87A72CB211DA /* SlackKit */;
+			targetProxy = F3A32693DE0EE20C86DA5A439732171E /* PBXContainerItemProxy */;
+		};
+		629DE966512C213EB869B8A89377B155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = E8384056C027269CCA515B306CC85D6C /* Swifter */;
+			targetProxy = 5DB4A8F9C261ED06867E20C66E07780D /* PBXContainerItemProxy */;
+		};
+		8E03793A3467E953A48F23F65B991B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 474A9C1F19E6FD183BD71EA1D6F4BB3A /* Starscream */;
+			targetProxy = 5A92413F7AC32CA4514B9D5E5DD7DABD /* PBXContainerItemProxy */;
+		};
+		99F217B1A103C1E423F72508A019A196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 474A9C1F19E6FD183BD71EA1D6F4BB3A /* Starscream */;
+			targetProxy = A0CE32426F51B0E79CC83CD888948695 /* PBXContainerItemProxy */;
+		};
+		DA3DAABBD7C96C125775C89E95E85AE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = E8384056C027269CCA515B306CC85D6C /* Swifter */;
+			targetProxy = 1DAE9A21F2841712433ACBD78CAD4AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		150782306A1C9BA2E4F49DC0F15D4E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA63AEE474DC33350483EC56035DD62 /* Pods-Supportal.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Supportal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Supportal/Pods-Supportal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Supportal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157E845F8B182388574AE194ED392257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46760BAB14ACA36E9005C7A45A385D5B /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38EE28D689FE1F495A8A0EB3A6A9422B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC488ABC76B1CA13258AD64D39DCC20 /* Pods-Supportal.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Supportal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Supportal/Pods-Supportal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Supportal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D94AED8ED217380B715881AFB532EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2954C1829295C0436F481F735EA581 /* SlackKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackKit/SlackKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackKit/SlackKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlackKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40DD0AF65F67B24AF280CFADDE00E32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82AAC32B8ED0CFCF4F1B483F96222117 /* Pods-SupportalTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SupportalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SupportalTests/Pods-SupportalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SupportalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63501005D92B95C2510E21505B06DD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2954C1829295C0436F481F735EA581 /* SlackKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackKit/SlackKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackKit/SlackKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlackKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E7E7C5B8A080161492B69057308E3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D503B24AC9BBE3E956184A65EB6D46B /* Pods-SupportalUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SupportalUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SupportalUITests/Pods-SupportalUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SupportalUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8972F0CE32CCF4CEFC2BB5CC173AA84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29509B6E1D55F7DEC3C9055196603D6 /* Swifter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD6033FAD252DE542BEC61EDF13B517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70FA5F1A8B7F0E6E94871C0E96569CD /* Pods-SupportalTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SupportalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SupportalTests/Pods-SupportalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SupportalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0568EA155331C093D13A643B2499AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB19D730153EE143730F24DF0E9CDBC2 /* Pods-SupportalUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SupportalUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SupportalUITests/Pods-SupportalUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SupportalUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9748AD4DE988EDA3F64C875D93F3449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29509B6E1D55F7DEC3C9055196603D6 /* Swifter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF97962CE080F28CC5A967189BB41113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46760BAB14ACA36E9005C7A45A385D5B /* Starscream.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E207262DB26A2C4CE66AAA9E3C7964A /* Build configuration list for PBXNativeTarget "Pods-SupportalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD6033FAD252DE542BEC61EDF13B517 /* Debug */,
+				40DD0AF65F67B24AF280CFADDE00E32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E9640FE8A32CD8B4FDB68ED47CA321 /* Build configuration list for PBXNativeTarget "Pods-SupportalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7E7C5B8A080161492B69057308E3D7 /* Debug */,
+				C0568EA155331C093D13A643B2499AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6A76628D7A30070E4ECCE61157D656 /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9748AD4DE988EDA3F64C875D93F3449 /* Debug */,
+				8972F0CE32CCF4CEFC2BB5CC173AA84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AD21F051A81C8FA4AE223E4BE7E986 /* Build configuration list for PBXNativeTarget "Pods-Supportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150782306A1C9BA2E4F49DC0F15D4E1A /* Debug */,
+				38EE28D689FE1F495A8A0EB3A6A9422B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD479717CBBB9BC0BEFBC9B67B4B2FFD /* Build configuration list for PBXNativeTarget "SlackKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D94AED8ED217380B715881AFB532EF3 /* Debug */,
+				63501005D92B95C2510E21505B06DD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04514B6325A4B715E868D5F6F0069FC /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF97962CE080F28CC5A967189BB41113 /* Debug */,
+				157E845F8B182388574AE194ED392257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Supportal {
+  umbrella header "Pods-Supportal-umbrella.h"
+
+  export *
+  module * { export * }
+}
