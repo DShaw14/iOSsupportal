@@ -10,8 +10,6 @@
 		05F2EF00BE265EF6D67AEA31 /* Pods_SupportalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFC53BEB16D4767D2B3303F /* Pods_SupportalTests.framework */; };
 		10414098FB29D74C3AB8903A /* Pods_Supportal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EE80C4D60B810F22743974 /* Pods_Supportal.framework */; };
 		8FC6994C1DB9482000BC18E5 /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6994B1DB9482000BC18E5 /* BoxViewController.swift */; };
-		8FE742061DD1011000A4D3AA /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE742051DD1011000A4D3AA /* DLRadioButton.m */; };
-		8FE742091DD1017F00A4D3AA /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE742081DD1017F00A4D3AA /* DLRadioButton.m */; };
 		A02537661D99AF260017D756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02537651D99AF260017D756 /* AppDelegate.swift */; };
 		A02537681D99AF260017D756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02537671D99AF260017D756 /* ViewController.swift */; };
 		A025376B1D99AF260017D756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02537691D99AF260017D756 /* Main.storyboard */; };
@@ -48,10 +46,6 @@
 		8F4943581DB80BA6003E0E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8FAAF6031DB93A2F0075E13C /* Supportal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Supportal-Bridging-Header.h"; sourceTree = "<group>"; };
 		8FC6994B1DB9482000BC18E5 /* BoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxViewController.swift; sourceTree = "<group>"; };
-		8FE742041DD1011000A4D3AA /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
-		8FE742051DD1011000A4D3AA /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
-		8FE742071DD1017F00A4D3AA /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
-		8FE742081DD1017F00A4D3AA /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
 		A02537621D99AF260017D756 /* Supportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02537651D99AF260017D756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A02537671D99AF260017D756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,8 +96,6 @@
 		A02537591D99AF260017D756 = {
 			isa = PBXGroup;
 			children = (
-				8FE742071DD1017F00A4D3AA /* DLRadioButton.h */,
-				8FE742081DD1017F00A4D3AA /* DLRadioButton.m */,
 				A02537641D99AF260017D756 /* Supportal */,
 				A02537791D99AF260017D756 /* SupportalTests */,
 				A02537841D99AF260017D756 /* SupportalUITests */,
@@ -126,8 +118,6 @@
 		A02537641D99AF260017D756 /* Supportal */ = {
 			isa = PBXGroup;
 			children = (
-				8FE742041DD1011000A4D3AA /* DLRadioButton.h */,
-				8FE742051DD1011000A4D3AA /* DLRadioButton.m */,
 				A02537651D99AF260017D756 /* AppDelegate.swift */,
 				A02537671D99AF260017D756 /* ViewController.swift */,
 				A02537691D99AF260017D756 /* Main.storyboard */,
@@ -465,8 +455,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02537681D99AF260017D756 /* ViewController.swift in Sources */,
-				8FE742091DD1017F00A4D3AA /* DLRadioButton.m in Sources */,
-				8FE742061DD1011000A4D3AA /* DLRadioButton.m in Sources */,
 				8FC6994C1DB9482000BC18E5 /* BoxViewController.swift in Sources */,
 				A02537661D99AF260017D756 /* AppDelegate.swift in Sources */,
 			);
