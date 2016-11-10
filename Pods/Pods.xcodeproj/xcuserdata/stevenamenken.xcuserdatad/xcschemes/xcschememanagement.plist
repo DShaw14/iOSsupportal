@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JIRAMobileConnect.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Supportal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-SupportalUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,17 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>474A9C1F19E6FD183BD71EA1D6F4BB3A</key>
+		<key>1C3D330A9DEC0C2223744BFCDD4A7B2F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65E7BA1B32F2A2B8E16C87A72CB211DA</key>
+		<key>53E0A6D5F7EC8FDBBFEB4500B8CF3161</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BA0AF469B909EB7C7A992E180003988</key>
+		<key>7AAAB35BB325F39AC109F52F681B0AF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A1BA6556B555B36BEA3688450DD12EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8384056C027269CCA515B306CC85D6C</key>
+		<key>AF5847F731F85D598C23A35763C559F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA4B3D6175E042514B5C0383A7499FD1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD0B989480C32EBDB31398153A7FC79F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

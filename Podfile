@@ -11,6 +11,9 @@ target 'Supportal' do
   pod 'SlackKit', '~> 3.1.2'
   #pod 'Starscream', '~> 2.0.0'
 
+  # Require JIRA Mobile Connect 2.0.0-alpha.9
+    pod "JIRAMobileConnect", "2.0.0-alpha.9" 
+
   # Pods for Supportal
 
   target 'SupportalTests' do

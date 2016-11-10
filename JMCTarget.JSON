@@ -1,0 +1,5 @@
+{
+  "host": "example-dev.atlassian.net",
+  "projectKey": "EXAMPLEKEY",
+  "apiKey": "myApiKey"
+}
