@@ -41,10 +41,10 @@ class ViewController: UIViewController, UITextFieldDelegate
         // Do any additional setup after loading the view, typically from a nib.
         let button = UIButton()
         button.addShadowView()
-        UsernameTextField.text = "Enter Username"
-        PasswordTextField.text = "Enter Password"
-        UsernameTextField.textColor = UIColor.lightGray
-        PasswordTextField.textColor = UIColor.lightGray
+        //UsernameTextField.text = ""
+        //PasswordTextField.text = ""
+        //UsernameTextField.textColor = UIColor.lightGray
+        //PasswordTextField.textColor = UIColor.lightGray
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

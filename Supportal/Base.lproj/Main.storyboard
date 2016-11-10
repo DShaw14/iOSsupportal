@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="width" constant="175" id="fUg-sM-uYD"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Enter Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-It-btO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-It-btO">
                                 <rect key="frame" x="125" y="366" width="125" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="mkW-oh-5e2"/>
@@ -71,7 +71,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Enter Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwj-8V-A48">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwj-8V-A48">
                                 <rect key="frame" x="127" y="404" width="121" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="ke1-Av-ui3"/>
@@ -303,7 +303,7 @@
                                     <constraint firstAttribute="height" constant="42" id="aB6-4Z-XuY"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your current password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLq-Jt-piG">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your current password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLq-Jt-piG">
                                 <rect key="frame" x="25" y="187" width="217" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="217" id="EnC-ZW-Qaw"/>
@@ -312,7 +312,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your new desired password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x2K-8X-uyz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your new desired password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x2K-8X-uyz">
                                 <rect key="frame" x="25" y="251" width="239" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GE2-XH-A39"/>
@@ -321,7 +321,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Confirm new password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T21-v6-RYV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm new password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T21-v6-RYV">
                                 <rect key="frame" x="25" y="308" width="177" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9n9-n5-wQW"/>
@@ -330,7 +330,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter current email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-Is-JkO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter current email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-Is-JkO">
                                 <rect key="frame" x="32" y="478" width="144" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="C86-aJ-8LD"/>
@@ -366,7 +366,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter new email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97z-Kq-Tsn">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97z-Kq-Tsn">
                                 <rect key="frame" x="32" y="536" width="205" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ACN-k8-gXP"/>
@@ -455,7 +455,7 @@
                                     <constraint firstAttribute="width" constant="40" id="mju-it-gSE"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c7B-jH-Ov5">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c7B-jH-Ov5">
                                 <rect key="frame" x="34" y="188" width="127" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="127" id="dxs-Wp-WFc"/>
@@ -464,7 +464,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Give a subject for your issue" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-pF-dQR">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Give a subject for your issue" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HOT-pF-dQR">
                                 <rect key="frame" x="34" y="286" width="204" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="204" id="EG1-HG-kyW"/>
@@ -473,7 +473,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Give a description of the issue" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iBA-aN-TVa">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Give a description of the issue" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iBA-aN-TVa">
                                 <rect key="frame" x="34" y="395" width="217" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4hA-30-X2I"/>
@@ -609,7 +609,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your desired username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EHZ-DX-GZN">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your desired username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EHZ-DX-GZN">
                                 <rect key="frame" x="30" y="205" width="229" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="229" id="8bP-8R-qKQ"/>
@@ -649,7 +649,7 @@
                                     <segue destination="VE9-lx-sWa" kind="show" id="X1b-za-jEz"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdC-7d-qM2">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdC-7d-qM2">
                                 <rect key="frame" x="31" y="337" width="125" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="KOF-zi-uYE"/>
@@ -678,7 +678,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-LK-yXE">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-LK-yXE">
                                 <rect key="frame" x="31" y="465" width="131" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="71q-qf-NTd"/>
@@ -757,10 +757,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFK-8R-iNS">
-                                <rect key="frame" x="113" y="289" width="149" height="30"/>
+                                <rect key="frame" x="114" y="289" width="163" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="149" id="R2Q-rD-uoS"/>
+                                    <constraint firstAttribute="width" constant="163" id="R2Q-rD-uoS"/>
                                     <constraint firstAttribute="height" constant="30" id="hpo-M5-SDH"/>
                                 </constraints>
                                 <state key="normal" title="Manage / View Issues">
@@ -771,10 +771,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAk-P7-sHz">
-                                <rect key="frame" x="126" y="231" width="123" height="30"/>
+                                <rect key="frame" x="126" y="231" width="136" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="123" id="OMp-x4-oSs"/>
+                                    <constraint firstAttribute="width" constant="136" id="OMp-x4-oSs"/>
                                     <constraint firstAttribute="height" constant="30" id="l83-T9-wjs"/>
                                 </constraints>
                                 <state key="normal" title="Submit New Issue">
@@ -788,10 +788,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ZJ8-Qg-bNa" firstAttribute="top" secondItem="U67-Ln-0XJ" secondAttribute="top" id="3KZ-4c-KZ4"/>
-                            <constraint firstItem="ezL-ox-qcT" firstAttribute="centerX" secondItem="cAk-P7-sHz" secondAttribute="centerX" id="43J-sS-rSP"/>
+                            <constraint firstItem="ezL-ox-qcT" firstAttribute="centerX" secondItem="cAk-P7-sHz" secondAttribute="centerX" constant="-6" id="43J-sS-rSP"/>
                             <constraint firstItem="ZJ8-Qg-bNa" firstAttribute="bottom" secondItem="U67-Ln-0XJ" secondAttribute="bottom" id="GBb-6g-SvW"/>
                             <constraint firstItem="ZJ8-Qg-bNa" firstAttribute="centerX" secondItem="ezL-ox-qcT" secondAttribute="centerX" id="Gew-6y-DqL"/>
-                            <constraint firstItem="cAk-P7-sHz" firstAttribute="centerX" secondItem="LFK-8R-iNS" secondAttribute="centerX" id="HV2-jM-uhH"/>
+                            <constraint firstItem="cAk-P7-sHz" firstAttribute="centerX" secondItem="LFK-8R-iNS" secondAttribute="centerX" constant="-1.5" id="HV2-jM-uhH"/>
                             <constraint firstItem="ZJ8-Qg-bNa" firstAttribute="top" secondItem="vnf-2p-rMz" secondAttribute="bottom" id="Ntf-A2-8RB"/>
                             <constraint firstItem="cAk-P7-sHz" firstAttribute="top" secondItem="ezL-ox-qcT" secondAttribute="bottom" constant="76" id="OnR-fu-ca9"/>
                             <constraint firstAttribute="trailing" secondItem="ZJ8-Qg-bNa" secondAttribute="trailing" id="Ov7-ww-fL0"/>
@@ -813,6 +813,6 @@
         <image name="oaklabslogo" width="750" height="1065"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X1b-za-jEz"/>
+        <segue reference="Pdw-Oo-lbh"/>
     </inferredMetricsTieBreakers>
 </document>
