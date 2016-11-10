@@ -24,10 +24,16 @@ class BoxViewController: UIViewController {
     
     @IBOutlet weak var submitButton: UIButton!
     
+    @IBOutlet weak var highPriority: UISwitch!
     @IBAction func submitButton(_ sender: UIButton) {
-        let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"zmenken")
-        let message = Response(text: "iOS Test Message")
-        incoming.postMessage(message)
+        if highPriority.isOn {
+            let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"zmenken")
+            let message = Response(text: "iOS Test Message")
+            incoming.postMessage(message)
+            highPriority.setOn(false, animated:true)
+        } else {
+            highPriority.setOn(false, animated:true)
+        }
     }
 
     /*

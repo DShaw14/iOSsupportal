@@ -533,7 +533,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELZ-11-rEg">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ELZ-11-rEg">
                                 <rect key="frame" x="62" y="487" width="51" height="31"/>
                             </switch>
                         </subviews>
@@ -569,6 +569,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="highPriority" destination="ELZ-11-rEg" id="JBG-lB-awJ"/>
                         <outlet property="submitButton" destination="GOC-nd-uew" id="dVc-uM-JJt"/>
                     </connections>
                 </viewController>
@@ -812,6 +813,6 @@
         <image name="oaklabslogo" width="750" height="1065"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pdw-Oo-lbh"/>
+        <segue reference="X1b-za-jEz"/>
     </inferredMetricsTieBreakers>
 </document>
