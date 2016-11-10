@@ -58,6 +58,15 @@ class ViewController: UIViewController, UITextFieldDelegate
         UsernameTextField.placeholder = nil
         PasswordTextField.placeholder = nil
     }
+    @nonobjc func textFieldShouldReturn(textField: UITextField) -> Bool {
+        // Hide the keyboard.
+        textField.resignFirstResponder()
+        return true
+    }
+    @nonobjc func textFieldDidEndEditing(textField: UITextField) {
+        UsernameTextField.text = textField.text
+        PasswordTextField.text = textField.text
+    }
     
     /*
     - (void)textFieldDidBeginEditing:(UITextField *)textField {

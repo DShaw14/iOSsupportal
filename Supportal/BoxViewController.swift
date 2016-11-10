@@ -23,16 +23,29 @@ class BoxViewController: UIViewController {
     }
     
     @IBOutlet weak var submitButton: UIButton!
-    
     @IBOutlet weak var highPriority: UISwitch!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var issueField: UITextField!
+    @IBOutlet weak var descriptionField: UITextField!
+    
     @IBAction func submitButton(_ sender: UIButton) {
-        if highPriority.isOn {
-            let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"zmenken")
-            let message = Response(text: "iOS Test Message")
-            incoming.postMessage(message)
-            highPriority.setOn(false, animated:true)
-        } else {
-            highPriority.setOn(false, animated:true)
+        
+        let nameInput = self.nameField.text
+        let issueInput = self.issueField.text
+        let descriptonInput = self.descriptionField.text
+        
+        if !nameInput!.isEmpty && !issueInput!.isEmpty && !descriptonInput!.isEmpty {
+            if highPriority.isOn {
+                let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"\(nameInput!)")
+                let message = Response(text: "Issue:\r\n" + "\(issueInput!)\r\n" + "\r\n" + "Description:\r\n" + "\(descriptonInput!)")
+                incoming.postMessage(message)
+                highPriority.setOn(false, animated:true)
+            } else {
+                highPriority.setOn(false, animated:true)
+            }
+        }
+        else{
+            print("Needs to contain information.")
         }
     }
 
