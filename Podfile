@@ -9,7 +9,7 @@ target 'Supportal' do
  
   use_frameworks!
   pod 'SlackKit', '~> 3.1.2'
-  pod 'Starscream', '~> 2.0.0'
+  #pod 'Starscream', '~> 2.0.0'
 
   # Pods for Supportal
 

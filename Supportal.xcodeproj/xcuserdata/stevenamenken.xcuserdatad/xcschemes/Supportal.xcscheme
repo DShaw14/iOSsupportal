@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A02537751D99AF260017D756"
+               BuildableName = "SupportalTests.xctest"
+               BlueprintName = "SupportalTests"
+               ReferencedContainer = "container:Supportal.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A02537801D99AF260017D756"
+               BuildableName = "SupportalUITests.xctest"
+               BlueprintName = "SupportalUITests"
+               ReferencedContainer = "container:Supportal.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

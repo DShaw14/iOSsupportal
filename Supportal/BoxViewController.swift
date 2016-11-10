@@ -2,30 +2,34 @@
 //  BoxViewController.swift
 //  Supportal
 //
-//  Created by Steven A. Menken on 10/20/16.
+//  Created by Zachary A. Menken on 10/20/16.
 //  Copyright © 2016 Oak Labs. All rights reserved.
 //
 
 import UIKit
+import Starscream
+import SlackKit
 
 class BoxViewController: UIViewController {
-
-    
-   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var submitButton: UIButton!
+    
+    @IBAction func submitButton(_ sender: UIButton) {
+        let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"zmenken")
+        let message = Response(text: "iOS Test Message")
+        incoming.postMessage(message)
+    }
 
-   
     /*
     // MARK: - Navigation
 

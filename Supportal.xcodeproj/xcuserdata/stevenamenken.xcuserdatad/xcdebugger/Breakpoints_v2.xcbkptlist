@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ViewController.swift"
@@ -33,78 +33,78 @@
             endingLineNumber = "9">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(extension in Supportal):__ObjC.UIView.(addShadowView (width : CoreGraphics.CGFloat, height : CoreGraphics.CGFloat, Opacidade : Swift.Float, maskToBounds : Swift.Bool, radius : CoreGraphics.CGFloat) -&gt; ()).(default argument 0)"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/iOSsupportal/Supportal/ViewController.swift"
-                  timestampString = "498602264.353445"
+                  timestampString = "500493143.816472"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(extension in Supportal):__ObjC.UIView.(addShadowView (width : CoreGraphics.CGFloat, height : CoreGraphics.CGFloat, Opacidade : Swift.Float, maskToBounds : Swift.Bool, radius : CoreGraphics.CGFloat) -&gt; ()).(default argument 2)"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/iOSsupportal/Supportal/ViewController.swift"
-                  timestampString = "498602264.363612"
+                  timestampString = "500493143.823698"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(extension in Supportal):__ObjC.UIView.(addShadowView (width : CoreGraphics.CGFloat, height : CoreGraphics.CGFloat, Opacidade : Swift.Float, maskToBounds : Swift.Bool, radius : CoreGraphics.CGFloat) -&gt; ()).(default argument 3)"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/iOSsupportal/Supportal/ViewController.swift"
-                  timestampString = "498602264.367524"
+                  timestampString = "500493143.826907"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(extension in Supportal):__ObjC.UIView.(addShadowView (width : CoreGraphics.CGFloat, height : CoreGraphics.CGFloat, Opacidade : Swift.Float, maskToBounds : Swift.Bool, radius : CoreGraphics.CGFloat) -&gt; ()).(default argument 4)"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/iOSsupportal/Supportal/ViewController.swift"
-                  timestampString = "498602264.371867"
+                  timestampString = "500493143.830307"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(extension in Supportal):__ObjC.UIView.addShadowView (width : CoreGraphics.CGFloat, height : CoreGraphics.CGFloat, Opacidade : Swift.Float, maskToBounds : Swift.Bool, radius : CoreGraphics.CGFloat) -&gt; ()"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/iOSsupportal/Supportal/ViewController.swift"
-                  timestampString = "498602264.375839"
+                  timestampString = "500493143.833393"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "46">
                </Location>
             </Locations>

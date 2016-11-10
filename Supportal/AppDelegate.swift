@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SlackKit
+import Starscream
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
