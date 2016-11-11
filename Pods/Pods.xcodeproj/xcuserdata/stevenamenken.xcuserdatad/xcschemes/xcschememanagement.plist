@@ -29,11 +29,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SlackKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,22 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C3D330A9DEC0C2223744BFCDD4A7B2F</key>
+		<key>10308E4E84D6A2BD7053C14641343AE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53E0A6D5F7EC8FDBBFEB4500B8CF3161</key>
+		<key>1CA65295E8B897AFAE888D471BC94C61</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7AAAB35BB325F39AC109F52F681B0AF6</key>
+		<key>2D000F7C8F6FB5D8D292D0527AC80ABB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A1BA6556B555B36BEA3688450DD12EB</key>
+		<key>5209938B16ABD687D7297EF5D294A67E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF5847F731F85D598C23A35763C559F3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CA4B3D6175E042514B5C0383A7499FD1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD0B989480C32EBDB31398153A7FC79F</key>
+		<key>B27E367919363C7AB4EA0E3D43FC03DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

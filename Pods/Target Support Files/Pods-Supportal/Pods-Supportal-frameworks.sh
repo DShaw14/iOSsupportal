@@ -91,7 +91,6 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JIRAMobileConnect/JIRAMobileConnect.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SlackKit/SlackKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Starscream/Starscream.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Swifter/Swifter.framework"
@@ -99,7 +98,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/JIRAMobileConnect/JIRAMobileConnect.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SlackKit/SlackKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Starscream/Starscream.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Swifter/Swifter.framework"

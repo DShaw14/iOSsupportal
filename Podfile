@@ -1,18 +1,16 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
 
 target 'Supportal' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  source 'https://github.com/CocoaPods/Specs.git'
  
-  use_frameworks!
   pod 'SlackKit', '~> 3.1.2'
-  #pod 'Starscream', '~> 2.0.0'
+  
 
+  #pod 'Starscream', '~> 2.0.0
   # Require JIRA Mobile Connect 2.0.0-alpha.9
-    pod "JIRAMobileConnect", "2.0.0-alpha.9" 
+    pod "JIRAMobileConnect", "1.2.6"
+    pod 'Alamofire', '~> 4.0'
 
   # Pods for Supportal
 

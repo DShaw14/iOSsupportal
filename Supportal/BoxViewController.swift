@@ -9,6 +9,7 @@
 import UIKit
 import Starscream
 import SlackKit
+import JIRAMobileConnect
 
 class BoxViewController: UIViewController {
     

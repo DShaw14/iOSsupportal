@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AF5847F731F85D598C23A35763C559F3'
+               BlueprintIdentifier = '5209938B16ABD687D7297EF5D294A67E'
                BlueprintName = 'SlackKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SlackKit.framework'>
