@@ -1,11 +1,6 @@
 PODS:
-  - Alamofire (2.0.2)
-  - JIRAMobileConnect (2.0.0-alpha.9):
-    - Alamofire (~> 2.0)
-    - SDWebImage (~> 3.7.3)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - Alamofire (4.0.1)
+  - JIRAMobileConnect (1.2.6)
   - SlackKit (3.1.2):
     - Starscream
     - Swifter
@@ -13,17 +8,17 @@ PODS:
   - Swifter (1.3.2)
 
 DEPENDENCIES:
-  - JIRAMobileConnect (= 2.0.0-alpha.9)
+  - Alamofire (~> 4.0)
+  - JIRAMobileConnect (= 1.2.6)
   - SlackKit (~> 3.1.2)
 
 SPEC CHECKSUMS:
-  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
-  JIRAMobileConnect: 225b1d3c05141df75334a36d6566302f24edd0ef
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  JIRAMobileConnect: e89b09b8555f6685f36a9af69523cce52c702110
   SlackKit: 3a6820f66ea32bb6097b256294a73523da4c359a
   Starscream: ce7a202d95615bd4113bc5a0f1932f1db8c808a4
   Swifter: dd1800ba8eb3e28b22b8bd20f91a8561a0110fac
 
-PODFILE CHECKSUM: 2f544feae4c8bfbb7ad7118e6eb7229c77669a90
+PODFILE CHECKSUM: 5406b2f41dcce13ac5d561fdc2c22e4720fe3571
 
 COCOAPODS: 1.2.0.beta.1

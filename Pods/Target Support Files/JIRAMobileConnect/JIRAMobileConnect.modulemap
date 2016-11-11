@@ -1,0 +1,6 @@
+framework module JIRAMobileConnect {
+  umbrella header "JIRAMobileConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}
