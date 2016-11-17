@@ -9,7 +9,7 @@ target 'Supportal' do
 
   #pod 'Starscream', '~> 2.0.0
   # Require JIRA Mobile Connect 2.0.0-alpha.9
-    pod "JIRAMobileConnect", "1.2.6"
+  # pod "JIRAMobileConnect", "1.2.6"
     pod 'Alamofire', '~> 4.0'
 
   # Pods for Supportal

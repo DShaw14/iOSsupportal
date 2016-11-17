@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JIRAMobileConnect.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Supportal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,22 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>10308E4E84D6A2BD7053C14641343AE4</key>
+		<key>24CE123F1A92DDDEC8AABBEA8ECDFC7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1CA65295E8B897AFAE888D471BC94C61</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2D000F7C8F6FB5D8D292D0527AC80ABB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5209938B16ABD687D7297EF5D294A67E</key>
+		<key>4EFFCCA0D63F7367E42C4876C26CCEB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8A65D833AA3B169461C183B58B1F99AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A7B0CCD346CCB37A35F67B25378DDCB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B27E367919363C7AB4EA0E3D43FC03DB</key>
+		<key>B6762CE18B212D8EB6C5B35DD6720FE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

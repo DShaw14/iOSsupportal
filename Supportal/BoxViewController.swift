@@ -9,7 +9,7 @@
 import UIKit
 import Starscream
 import SlackKit
-import JIRAMobileConnect
+//import JIRAMobileConnect
 
 class BoxViewController: UIViewController {
     
