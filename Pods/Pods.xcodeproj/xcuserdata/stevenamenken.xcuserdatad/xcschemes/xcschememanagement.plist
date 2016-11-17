@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JIRAMobileConnect.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NBNRequestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Supportal.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TrashCanKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -47,12 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>24CE123F1A92DDDEC8AABBEA8ECDFC7F</key>
+		<key>36B70CD51779F1CEEFD7C940F860E119</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EFFCCA0D63F7367E42C4876C26CCEB5</key>
+		<key>6609D8E686574805CB13F75B6FB9DF77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7603510F1080403EA4A6F448FCEA7B11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76FE358E71C9578C1F697D710603DF57</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +87,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A65D833AA3B169461C183B58B1F99AA</key>
+		<key>97984C2BA8A5852B7F3967B084B713D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6762CE18B212D8EB6C5B35DD6720FE0</key>
+		<key>B27E367919363C7AB4EA0E3D43FC03DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEC1AF8C5DE0FAB5F62EB7374EE16D77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
