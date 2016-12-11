@@ -8,9 +8,8 @@ target 'Supportal' do
   pod 'Alamofire', '~> 4.0'
   pod 'TrashCanKit', '~> 0.6.0'
   pod 'SwiftyJSON', '~> 3.1'
-  pod 'AlamofireSwiftyJSON', '~> 0.2.0'
+  #pod 'AlamofireSwiftyJSON', '~> 0.2.0'
   pod 'KeychainAccess', '~> 3.0.1'
-  
 
   #pod 'Starscream', '~> 2.0.0
   # Require JIRA Mobile Connect 2.0.0-alpha.9

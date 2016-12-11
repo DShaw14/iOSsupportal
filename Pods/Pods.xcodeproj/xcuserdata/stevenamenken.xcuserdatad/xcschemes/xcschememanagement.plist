@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AlamofireSwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>KeychainAccess.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -72,17 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>12B2FEB8657EEEAED53DBDB22DD534EF</key>
+		<key>28B1F963C95B7D84D71C0BF84BB8B02B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>35AD08DFAADC712BA97242AF0F98E825</key>
+		<key>33B22D1182DACDBD54CBB9FE3B2F105A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61E5C1379DC63FAC57AF48F891CFB123</key>
+		<key>3ACC89EC117A68595FE0D6F841A69B41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +92,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97984C2BA8A5852B7F3967B084B713D5</key>
+		<key>96E00C606A20B6DA9D9E5BDD06453436</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98FEFAF818DE7FEBD7FFF93F4869A664</key>
+		<key>97984C2BA8A5852B7F3967B084B713D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,17 +107,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C68748E71A3DDB40B0AAF4BC0A8F9030</key>
+		<key>C26EEC7BC96010B6EC942FA371D845A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8762DBD111EAB512553DC12485AC682</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F4804C72EB5E9C28E7051718E13CFE35</key>
+		<key>CC2F455249677351DA6C01FC986EC1DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

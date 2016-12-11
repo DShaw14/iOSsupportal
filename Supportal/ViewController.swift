@@ -10,7 +10,6 @@ import UIKit
 import Starscream
 import SlackKit
 import Alamofire
-//import AlamofireSwiftyJSON
 import SwiftyJSON
 import Foundation
 
@@ -26,7 +25,6 @@ extension UIView {
         self.layer.masksToBounds = maskToBounds
     }
 }
-
 class ViewController: UIViewController, UITextFieldDelegate
 {
     @IBOutlet weak var textField: UITextField!
@@ -36,6 +34,17 @@ class ViewController: UIViewController, UITextFieldDelegate
     @IBOutlet weak var UsernameTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
     @IBOutlet var buttons : [UIView]!
+    
+    func loginAlert(alertMessage: String)
+    {
+        let loginAlert = UIAlertController(title: "Alert", message: alertMessage, preferredStyle: UIAlertControllerStyle.alert)
+        
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
+        
+        loginAlert.addAction(okAction)
+        
+        self.present(loginAlert, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,23 +82,57 @@ class ViewController: UIViewController, UITextFieldDelegate
     }
     @IBAction func loginButton(_ sender: UIButton) {
         let parameters: [String: Any] = [
-            "username" : UsernameTextField.text!,
+            "username" : "\(UsernameTextField.text!)",
             "email" : "email@email.com",
-            "password" : PasswordTextField.text!
+            "password" : "\(PasswordTextField.text!)"
         ]
+   
+        let myheader:HTTPHeaders = [
+            //"Authorization": "Basic",
+            "Accept": "application/json",
+            "application-type":"REST",
+            "Content-Type":"application/json",
+        ]
+        //Remove all cache
+        URLCache.shared.removeAllCachedResponses()
         
-        Alamofire.request("https://hurst.pythonanywhere.com/supportal/rest-auth/login/", method: .post, parameters: parameters, encoding: JSONEncoding.default).validate().responseJSON { response in
-                print(response)
-                if response.result.isSuccess {
-                    let resJson = JSON(response.result.value!)
-                    //success(resJson)
-                    print(resJson)
-                }
-                if response.result.isFailure {
-                    let error : Error = response.result.error!
-                    //failure(error)
+        // deleting any associated cookies
+        if let cookies = HTTPCookieStorage.shared.cookies {
+        for cookie in cookies {
+            HTTPCookieStorage.shared.deleteCookie(cookie)
+            }
+        }
+        //.authenticate(user: "\(UsernameTextField.text!)" , password:"\(PasswordTextField.text!)")
+        Alamofire.request("http://hurst.pythonanywhere.com/supportal/rest-auth/login/", method: .post, parameters: parameters,encoding: JSONEncoding.default, headers: myheader).validate(contentType: ["application/json"]).responseJSON { response in
+            //print(response.result)
+            //print(response)
+            switch response.result {
+                case .success:
+                    if let value = response.result.value {
+                        let json = JSON(value)
+                        print("JSON: \(json)")
+                    }
+                case .failure(let error):
                     print(error)
+            }
+            
+            /*
+            //to get status code
+            if let status = response.response?.statusCode {
+                switch(status){
+                case 201:
+                    print("example success")
+                default:
+                    print("error with response status: \(status)")
                 }
+            }
+           
+            //to get JSON return value
+            if let result = response.result.value {
+                let JSON = result as! NSDictionary
+                print(JSON)
+            }
+            */
         }
     }
     /*
@@ -124,7 +167,7 @@ class ViewController: UIViewController, UITextFieldDelegate
         }
     }
     */
-}
+
 
 class TextField : UITextField {
     
@@ -144,4 +187,5 @@ class TextField : UITextField {
         path.stroke()
     }
     
+}
 }

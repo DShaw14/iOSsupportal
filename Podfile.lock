@@ -1,8 +1,5 @@
 PODS:
   - Alamofire (4.2.0)
-  - AlamofireSwiftyJSON (0.2.0):
-    - Alamofire (~> 4.0)
-    - SwiftyJSON (~> 3.1)
   - KeychainAccess (3.0.1)
   - NBNRequestKit (2.0.0)
   - SlackKit (3.1.2):
@@ -16,7 +13,6 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
-  - AlamofireSwiftyJSON (~> 0.2.0)
   - KeychainAccess (~> 3.0.1)
   - SlackKit (~> 3.1.2)
   - SwiftyJSON (~> 3.1)
@@ -24,7 +20,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
-  AlamofireSwiftyJSON: 5a49196b8b061e32f5ebc84fa0815300bd8a974e
   KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
   NBNRequestKit: 88df01aaeedd6454cebde0b81360f871e4022bed
   SlackKit: 3a6820f66ea32bb6097b256294a73523da4c359a
@@ -33,6 +28,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
   TrashCanKit: 543843922422165bf85fd2dc0eb95897f8d4fed4
 
-PODFILE CHECKSUM: 34d3b8847ab81d063df18c7f476477acf83132a2
+PODFILE CHECKSUM: 3c6ce7cf133c1a9ff9292b1b361a57d21fbafc0a
 
 COCOAPODS: 1.2.0.beta.1
