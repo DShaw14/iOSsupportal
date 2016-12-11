@@ -9,6 +9,10 @@
 import UIKit
 import Starscream
 import SlackKit
+import Alamofire
+//import AlamofireSwiftyJSON
+import SwiftyJSON
+import Foundation
 
 //workspace "Supportal"
 
@@ -67,7 +71,27 @@ class ViewController: UIViewController, UITextFieldDelegate
         UsernameTextField.text = textField.text
         PasswordTextField.text = textField.text
     }
-    
+    @IBAction func loginButton(_ sender: UIButton) {
+        let parameters: [String: Any] = [
+            "username" : UsernameTextField.text!,
+            "email" : "email@email.com",
+            "password" : PasswordTextField.text!
+        ]
+        
+        Alamofire.request("https://hurst.pythonanywhere.com/supportal/rest-auth/login/", method: .post, parameters: parameters, encoding: JSONEncoding.default).validate().responseJSON { response in
+                print(response)
+                if response.result.isSuccess {
+                    let resJson = JSON(response.result.value!)
+                    //success(resJson)
+                    print(resJson)
+                }
+                if response.result.isFailure {
+                    let error : Error = response.result.error!
+                    //failure(error)
+                    print(error)
+                }
+        }
+    }
     /*
     - (void)textFieldDidBeginEditing:(UITextField *)textField {
     UsernameTextField.placeholder = nil;
@@ -81,13 +105,13 @@ class ViewController: UIViewController, UITextFieldDelegate
     UsernameTextField.placeholder = @"Enter Username";
     }
     }
-    */
-    /*
+    
+    
     func textViewDidBeginEditing(textView: UITextView) {
         
         self.UsernameTextField.delegate = self
         self.PasswordTextField.delegate = self
-        
+     
         if UsernameTextField.textColor == UIColor.lightGray
         {
             UsernameTextField.text = nil

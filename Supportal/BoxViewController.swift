@@ -40,14 +40,20 @@ class BoxViewController: UIViewController {
         let descriptonInput = self.descriptionField.text
         */
         
-        let config = OAuthConfiguration(token: "PdEp6B7WVzEnZe5XKg", secret: "Sq7PN7wbtNmdgjDwbXfAyHGCfebRKQd8", scopes: ["issue"]) // Scopes are not supported by the API yet
+       let config = OAuthConfiguration(token: "PdEp6B7WVzEnZe5XKg", secret: "Sq7PN7wbtNmdgjDwbXfAyHGCfebRKQd8", scopes: ["issue"]) // Scopes are not supported by the API yet
+        
+        let token = config.accessToken
+        let myconfig = TokenConfiguration(token)
+        
+        //config.authenticate()
         
         let auth = config.authenticate()
-        print("auth= " + "\(auth!)");
+        print("auth = " + "\(auth!)");
+        print("\r\n");
         
         func loadCurrentUser(config: TokenConfiguration) {
-            let myresult = TrashCanKit(config).me() { response in
-                switch response
+            let myresult = TrashCanKit(config).me() { myresult in
+                switch myresult
                 {
                 case .success(let user):
                     print("user = " + "\(user.login!)")
@@ -57,12 +63,20 @@ class BoxViewController: UIViewController {
             }
             print("myresult = " + "\(myresult!)");
         }
+        
+         loadCurrentUser(config: myconfig);
+        
+        //}
+        
+      
+    }
+            /*
         let myconfig = TokenConfiguration("PdEp6B7WVzEnZe5XKg")
         print("myconfig = " + "\(myconfig)")
         let usercurrent = loadCurrentUser(config : myconfig)
         print("Current User = " + "\(usercurrent)");
         
-                /*
+        
         let request = OAuthRouter.authorize(config).URLRequest
         print("request= " + "\(request!)");
         print("\r\n");
@@ -135,7 +149,7 @@ class BoxViewController: UIViewController {
             print("Needs to contain information.")
         }
         */
-    }
+   // } button end bracket
     /*
     // MARK: - Navigation
 

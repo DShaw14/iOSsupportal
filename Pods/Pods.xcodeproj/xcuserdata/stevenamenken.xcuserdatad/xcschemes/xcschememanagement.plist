@@ -9,7 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JIRAMobileConnect.xcscheme</key>
+		<key>AlamofireSwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KeychainAccess.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -49,6 +54,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TrashCanKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,22 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36B70CD51779F1CEEFD7C940F860E119</key>
+		<key>12B2FEB8657EEEAED53DBDB22DD534EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6609D8E686574805CB13F75B6FB9DF77</key>
+		<key>35AD08DFAADC712BA97242AF0F98E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7603510F1080403EA4A6F448FCEA7B11</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>76FE358E71C9578C1F697D710603DF57</key>
+		<key>61E5C1379DC63FAC57AF48F891CFB123</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8905DB6521F8FDC34752B69DEE3FDEB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>97984C2BA8A5852B7F3967B084B713D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98FEFAF818DE7FEBD7FFF93F4869A664</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B27E367919363C7AB4EA0E3D43FC03DB</key>
+		<key>C68748E71A3DDB40B0AAF4BC0A8F9030</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CEC1AF8C5DE0FAB5F62EB7374EE16D77</key>
+		<key>E8762DBD111EAB512553DC12485AC682</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4804C72EB5E9C28E7051718E13CFE35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
