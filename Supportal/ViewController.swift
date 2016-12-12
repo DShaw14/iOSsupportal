@@ -54,6 +54,10 @@ class ViewController: UIViewController, UITextFieldDelegate
         // Do any additional setup after loading the view, typically from a nib.
         let button = UIButton()
         button.addShadowView()
+        loginButton.layer.cornerRadius = 4
+        forgotPassword.layer.cornerRadius = 4
+        createAccount.layer.cornerRadius = 4
+        loginButton.addShadowView()
         //UsernameTextField.text = ""
         //PasswordTextField.text = ""
         //UsernameTextField.textColor = UIColor.lightGray
@@ -80,6 +84,9 @@ class ViewController: UIViewController, UITextFieldDelegate
         UsernameTextField.text = textField.text
         PasswordTextField.text = textField.text
     }
+    @IBOutlet weak var createAccount: UIButton!
+    @IBOutlet weak var forgotPassword: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
     @IBAction func loginButton(_ sender: UIButton) {
         let parameters: [String: Any] = [
             "username" : "\(UsernameTextField.text!)",

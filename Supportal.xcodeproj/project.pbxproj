@@ -10,6 +10,7 @@
 		05F2EF00BE265EF6D67AEA31 /* Pods_SupportalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFC53BEB16D4767D2B3303F /* Pods_SupportalTests.framework */; };
 		10414098FB29D74C3AB8903A /* Pods_Supportal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EE80C4D60B810F22743974 /* Pods_Supportal.framework */; };
 		8F2297701DFE556000C8AF34 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F22976F1DFE556000C8AF34 /* User.swift */; };
+		8F2297721DFF26B500C8AF34 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2297711DFF26B500C8AF34 /* AccountController.swift */; };
 		8F4AD45B1DD52AFD0071E683 /* JMCTarget.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 8F4AD45A1DD52AFD0071E683 /* JMCTarget.JSON */; };
 		8FC6994C1DB9482000BC18E5 /* BoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6994B1DB9482000BC18E5 /* BoxViewController.swift */; };
 		A02537661D99AF260017D756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02537651D99AF260017D756 /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 		5BFC53BEB16D4767D2B3303F /* Pods_SupportalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupportalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B947172B3FF767C0C07C22 /* Pods-Supportal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supportal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Supportal/Pods-Supportal.release.xcconfig"; sourceTree = "<group>"; };
 		8F22976F1DFE556000C8AF34 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8F2297711DFF26B500C8AF34 /* AccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 		8F4943581DB80BA6003E0E50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8F4AD45A1DD52AFD0071E683 /* JMCTarget.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JMCTarget.JSON; sourceTree = "<group>"; };
 		8FAAF6031DB93A2F0075E13C /* Supportal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Supportal-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				8F4943581DB80BA6003E0E50 /* ViewController.h */,
 				8FAAF6031DB93A2F0075E13C /* Supportal-Bridging-Header.h */,
 				8FC6994B1DB9482000BC18E5 /* BoxViewController.swift */,
+				8F2297711DFF26B500C8AF34 /* AccountController.swift */,
 			);
 			path = Supportal;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F2297701DFE556000C8AF34 /* User.swift in Sources */,
+				8F2297721DFF26B500C8AF34 /* AccountController.swift in Sources */,
 				A02537681D99AF260017D756 /* ViewController.swift in Sources */,
 				8FC6994C1DB9482000BC18E5 /* BoxViewController.swift in Sources */,
 				A02537661D99AF260017D756 /* AppDelegate.swift in Sources */,
