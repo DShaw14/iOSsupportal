@@ -83,7 +83,6 @@ class ViewController: UIViewController, UITextFieldDelegate
     @IBAction func loginButton(_ sender: UIButton) {
         let parameters: [String: Any] = [
             "username" : "\(UsernameTextField.text!)",
-            "email" : "email@email.com",
             "password" : "\(PasswordTextField.text!)"
         ]
    
@@ -93,30 +92,95 @@ class ViewController: UIViewController, UITextFieldDelegate
             "application-type":"REST",
             "Content-Type":"application/json",
         ]
-        //Remove all cache
-        URLCache.shared.removeAllCachedResponses()
-        
-        // deleting any associated cookies
-        if let cookies = HTTPCookieStorage.shared.cookies {
-        for cookie in cookies {
-            HTTPCookieStorage.shared.deleteCookie(cookie)
-            }
+     
+        var myCookie = 0
+        for cookie in HTTPCookieStorage.shared.cookies! {
+           myCookie += 1
+            print("EXTRACTED COOKIE: \(cookie)")
         }
-        //.authenticate(user: "\(UsernameTextField.text!)" , password:"\(PasswordTextField.text!)")
-        Alamofire.request("http://hurst.pythonanywhere.com/supportal/rest-auth/login/", method: .post, parameters: parameters,encoding: JSONEncoding.default, headers: myheader).validate(contentType: ["application/json"]).responseJSON { response in
-            //print(response.result)
-            //print(response)
-            switch response.result {
+        if myCookie > 1
+        {
+             User.set_IsUserLoggedIn(state: true)
+        }
+        else
+        {
+            User.set_IsUserLoggedIn(state: false)
+        }
+        
+        if (User.get_IsUserLoggedIn() == true)
+        {
+            // Logout and change the button to read "Log in"
+            //Remove all cache
+            URLCache.shared.removeAllCachedResponses()
+            URLCache.shared.diskCapacity = 0
+            URLCache.shared.memoryCapacity = 0
+            
+            if let cookies = HTTPCookieStorage.shared.cookies {
+                for cookie in cookies {
+                    if let _ = cookie.domain.range(of: "pythonanywhere.com") {
+                        print("\(#function): deleted cookie: \(cookie)")
+                        HTTPCookieStorage.shared.deleteCookie(cookie)
+                    }
+                }
+            }
+            /*
+            let myURL = "http://hurst.pythonanywhere.com/supportal/rest-auth/login/"
+            // deleting any associated cookies
+            if HTTPCookieStorage.shared.cookies != nil {
+                let cookies = HTTPCookieStorage.shared.cookies(for: NSURL(string: myURL) as! URL)
+                for cookie in cookies! {
+                    HTTPCookieStorage.shared.deleteCookie(cookie as HTTPCookie)
+                }
+                */
+                /*
+                 for cookie in cookies {
+                 HTTPCookieStorage.shared.deleteCookie(cookie)
+                 }
+                 */
+            //}
+            // self.logInButton.setTitle("Log in", forState: UIControlState.Normal)
+            // self.loggedIn = false
+            print("User is not logged in")
+        }
+        else if (User.get_IsUserLoggedIn() == false)
+        {
+            // Attempt to get a token
+            Alamofire.request("http://hurst.pythonanywhere.com/supportal/rest-auth/login/", method: .post, parameters: parameters,encoding: JSONEncoding.default, headers: myheader).validate(contentType: ["application/json"]).responseJSON { response in
+                switch response.result {
                 case .success:
                     if let value = response.result.value {
                         let json = JSON(value)
                         print("JSON: \(json)")
+                        User.set_IsUserLoggedIn(state: true)
+                        print("User is logged in")
                     }
                 case .failure(let error):
+                    User.set_IsUserLoggedIn(state: false)
                     print(error)
+                }
+                if let cookies = HTTPCookieStorage.shared.cookies {
+                    for cookie in cookies {
+                        NSLog("\(cookie)")
+                    }
+                }
+                /*
+                 authMgr.getToken() {
+                 (authenticated: Bool, token: String) -> Void in
+                 
+                 if (authenticated) {
+                 // Change the button to read "Log out"
+                 NSLog("Authentication successful, token: %@", token)
+                 self.logInButton.setTitle("Log out", forState: UIControlState.Normal)
+                 self.loggedIn = true
+                 }
+                 else {
+                 NSLog("Authentication failed: %@", token)
+                 }
+                 */
             }
-            
-            /*
+    }
+    }
+        /*
             //to get status code
             if let status = response.response?.statusCode {
                 switch(status){
@@ -134,7 +198,7 @@ class ViewController: UIViewController, UITextFieldDelegate
             }
             */
         }
-    }
+
     /*
     - (void)textFieldDidBeginEditing:(UITextField *)textField {
     UsernameTextField.placeholder = nil;
@@ -187,5 +251,4 @@ class TextField : UITextField {
         path.stroke()
     }
     
-}
 }
