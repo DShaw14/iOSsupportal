@@ -3,6 +3,8 @@
 
 import UIKit
 import Foundation
+import Alamofire
+import SwiftyJSON
 
 class User: NSObject {
     //MARK: - SET USER LOGGED IN
@@ -23,6 +25,56 @@ class User: NSObject {
         
         return checkUser!
     }
+    
+    //MARK: - GET USER NAME
+    class func get_UserName() -> String {
+        let parameters: [String: Any] = [
+            "" : ""
+        ]
+        
+        let myheader:HTTPHeaders = [
+            //"Authorization": "Basic",
+            "Accept": "application/json",
+            "application-type":"REST",
+            "Content-Type":"application/json",
+            ]
+        var hello = "hello"
+        let myUser = JSON(hello)
+        if (User.get_IsUserLoggedIn() == true)
+        {
+            // Attempt to get a token
+            Alamofire.request("http://hurst.pythonanywhere.com/supportal/rest-auth/user/", method: .get, parameters: parameters,encoding: JSONEncoding.default, headers: myheader).validate(contentType: ["application/json"]).responseJSON { response in
+                switch response.result {
+                    
+                case .success:
+                    //var json: JSON = [:]
+                    
+                    if let value = response.result.value {
+                        let json = JSON(value)
+                        let primaryKey = json["pk"]
+                        let username = json["username"]
+                        let email = json["email"]
+                        let firstName = json["first_name"]
+                        let lastName = json["last_name"]
+                        
+                        print("JSON: primaryKey: \(primaryKey)")
+                        print("JSON: username: \(username)")
+                        print("JSON: email: \(email)")
+                        print("JSON: firstName: \(firstName)")
+                        print("JSON: lastName: \(lastName)")
+                        
+                        hello = "\(username)"
+                        
+                    }
+                case .failure(let error):
+                    print(error)
+                }
+            }
+        }
+        return String(describing: myUser)
+    }
+
+    
 }
 
 /*

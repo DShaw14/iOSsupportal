@@ -410,7 +410,7 @@
                   moduleName = "TrashCanKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/TrashCanKit/TrashCanKit/OAuthRouter.swift"
-                  timestampString = "503264206.323893"
+                  timestampString = "503359308.895892"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -425,7 +425,7 @@
                   moduleName = "TrashCanKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/TrashCanKit/TrashCanKit/OAuthRouter.swift"
-                  timestampString = "503264206.327861"
+                  timestampString = "503359308.898213"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "10"
@@ -506,7 +506,7 @@
                   moduleName = "TrashCanKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/TrashCanKit/TrashCanKit/OAuthConfiguration.swift"
-                  timestampString = "503264206.354717"
+                  timestampString = "503359308.915572"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
@@ -521,7 +521,7 @@
                   moduleName = "TrashCanKit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/TrashCanKit/TrashCanKit/OAuthConfiguration.swift"
-                  timestampString = "503264206.3605"
+                  timestampString = "503359308.917699"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
@@ -585,12 +585,44 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Supportal/User.swift"
-            timestampString = "503209615.354697"
+            filePath = "Supportal/AccountController.swift"
+            timestampString = "503285339.130806"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40">
+            startingLineNumber = "120"
+            endingLineNumber = "120">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/UpdateController.swift"
+            timestampString = "503289592.637284"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/User.swift"
+            timestampString = "503290766.987444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "get_UserName()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -10,6 +10,7 @@ import UIKit
 import SlackKit
 import Starscream
 import TrashCanKit
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +21,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
-
+    // AppDelegate
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (url.host == "oauth-swift") {
+            OAuthSwift.handle(url: url)
+        }
+        if (url.host == "oauth-callback") {
+            if (url.path.hasPrefix("/bitbucket")){
+                OAuth1Swift.handle(url: url as URL)
+            }
+            if ( url.path.hasPrefix("/github" )){
+                OAuth2Swift.handle(url: url as URL)
+            }
+        }
+        return true
+     }
+     /*
+     // OAuth2.0
+     let oauthswift = OAuth2Swift(
+     consumerKey:    "PdEp6B7WVzEnZe5XKg",
+     consumerSecret: "mv8egn6ADHCYu9d2xdNr4kL7fRbXAVAq",
+     authorizeUrl:   "https://bitbucket.org/site/oauth2/authorize",
+     responseType:   "token"
+     )
+     let handle = oauthswift.authorize(
+     withCallbackURL: URL(string: "oauth-swift://oauth-callback/bitbucket")!,
+     scope: "issue+issue:write", state:"BITBUCKET",
+     success: { credential, response, parameters in
+     print(credential.oauthToken)
+     },
+     failure: { error in
+     print(error.localizedDescription)
+     }
+     )
+    */
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

@@ -29,6 +29,7 @@ class AccountController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    // Create Account Text Fields
     @IBOutlet weak var desiredUsername: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
