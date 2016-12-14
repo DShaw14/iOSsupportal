@@ -28,48 +28,13 @@ class ManageController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var bitbucketIssues: UITableView!
     @IBOutlet weak var closeIssue: UIButton!
-    /*
-    // MARK: BitBucket
-    func doOAuthBitBucket(_ serviceParameters: [String:String]){
-        let oauthswift = OAuth1Swift(
-            consumerKey:    serviceParameters["consumerKey"]!,
-            consumerSecret: serviceParameters["consumerSecret"]!,
-            requestTokenUrl: "https://bitbucket.org/api/1.0/oauth/request_token",
-            authorizeUrl:    "https://bitbucket.org/api/1.0/oauth/authenticate",
-            accessTokenUrl:  "https://bitbucket.org/api/1.0/oauth/access_token"
-        )
-        self.oauthswift = oauthswift
-        oauthswift.authorizeURLHandler = getURLHandler()
-        let _ = oauthswift.authorize(
-            withCallbackURL: URL(string: "oauth-swift://oauth-callback/bitbucket")!,
-            success: { credential, response, parameters in
-                self.showTokenAlert(name: serviceParameters["name"], credential: credential)
-                self.testBitBucket(oauthswift)
-        },
-            failure: { error in
-                print(error.description)
-        }
-        )
-    }
-    func testBitBucket(_ oauthswift: OAuth1Swift) {
-        let _ = oauthswift.client.get(
-            "https://bitbucket.org/api/1.0/user", parameters: [:],
-            success: { response in
-                let dataString = response.string!
-                print(dataString)
-        },
-            failure: { error in
-                print(error)
-        }
-        )
-    }
-    */
     
+    // MARK: BitBucket
     var currentUsername = ""
     var currentRepo = ""
  
-       @IBAction func closeIssue(_ sender: UIButton)
-       {
+    @IBAction func closeIssue(_ sender: UIButton)
+    {
         if let cookies = HTTPCookieStorage.shared.cookies {
             for cookie in cookies {
                 if let _ = cookie.domain.range(of: "bitbucket.org") {
@@ -90,34 +55,25 @@ class ManageController: UIViewController, UITextFieldDelegate {
             scope: "issue+issue:write", state:"BITBUCKET",
             success: { credential, response, parameters in
                 print(credential.oauthToken)
-                print(credential.oauthTokenSecret)
-                self.getUser(oauthswift)
-                self.getRepository(oauthswift)
-                //self.getIssues(oauthswift, completionHandler: nil)
-                
+                //print(credential.oauthTokenSecret)
+              
+                self.getUser(oauthswift, completionHandler: { (response) -> () in
+                    print("getUser: ")
+                    print(response)
+                })
+                    
+                self.getRepository(oauthswift, completionHandler: { (response) -> () in
+                    print("getRepository: ")
+                    print(response)
+                })
+                    
                 self.getIssues(oauthswift, completionHandler: { (response) -> () in
+                    print("getIssues")
                     print(response)
                 })
             },failure: { error in print(error.localizedDescription)})
-        }
-    
-    func getIssues(_ oauthswift: OAuth2Swift,completionHandler:@escaping (Bool) -> ())
-    {
-         let _ = oauthswift.client.get(("https://api.bitbucket.org/1.0/repositories/\(currentUsername)/\(currentRepo)/issues"), parameters: [:],
-                success: { response in
-                    let dataString = response.string!
-                        if let data = dataString.data(using: String.Encoding.utf8) {
-                            let json = JSON(data: data)
-                            print(dataString)
-                            print("JSON SLUG: \(json["slug"])") // slug = repository name
-                        }
-                    completionHandler(true)
-        },failure: {
-            error in print(error.localizedDescription)
-            completionHandler(false)
-         })
     }
-    func getUser(_ oauthswift: OAuth2Swift)
+    func getUser(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
     {
         let _ = oauthswift.client.get("https://bitbucket.org/api/2.0/user", parameters: [:],
             success: { response in
@@ -126,27 +82,59 @@ class ManageController: UIViewController, UITextFieldDelegate {
                         let json = JSON(data: data)
                         //let json = JSON(dataString)
                         print("USERNAME: " + "\(json["username"])")
-                        print("JSON: \(json)")
+                        print("getUser JSON: \(json)")
                         self.currentUsername = "\(json["username"])"
                         //print(dataString)
                         //print(self.currentUsername)
                     }
+                completionHandler(true)
                 
-        },failure: { error in print(error.localizedDescription)})
+        },failure: { error in print(error.localizedDescription)
+                        completionHandler(false)
+                    })
     }
-    func getRepository(_ oauthswift: OAuth2Swift)
+    func getRepository(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
     {
-        
+        print(currentUsername)
          let _ = oauthswift.client.get("https://bitbucket.org/!api/2.0/repositories/\(currentUsername)", parameters: [:],
          success: { response in
-                let dataString = response.string!
-                    if let data = dataString.data(using: String.Encoding.utf8) {
+                        let dataString = response.string!
+                        if let data = dataString.data(using: String.Encoding.utf8) {
                         let json = JSON(data: data)
-                        self.currentRepo = "\(json["slug"])"
-                        print(dataString)
-                        print("JSON SLUG: \(json["slug"])") // slug = repository name
-                        //print("THIS IS MY STRING: " + myString)
-                    }
-        },failure: { error in print(error.localizedDescription)})
+                        print("\(json["values"])")
+                            
+                            if let userArray = json["values"].array
+                            {
+                                for userDict in userArray {
+                                    let repo: String! = userDict["slug"].string
+                                    print(repo)
+                                    self.currentRepo = repo
+                            }
+                        }
+                        print("getRepository JSON: \(json)")
+                        print("repository JSON slug: \(self.currentRepo)") // slug = repository name
+                }
+        },failure: {
+            error in print(error.localizedDescription)
+            completionHandler(false)
+        })
+    }
+    func getIssues(_ oauthswift: OAuth2Swift,completionHandler:@escaping (Bool) -> ())
+    {
+        let _ = oauthswift.client.get(("https://api.bitbucket.org/1.0/repositories/\(currentUsername)/\(currentRepo)/issues"), parameters: [:],
+                success: { response in
+                    let dataString = response.string!
+                        if let data = dataString.data(using: String.Encoding.utf8) {
+                            let json = JSON(data: data)
+                            //print(dataString)
+                            print("getIssues JSON: \(json)")
+                            print(json)
+                            // print("JSON SLUG: \(json["slug"])") // slug = repository name
+                        }
+        completionHandler(true)
+        },failure: {
+            error in print(error.localizedDescription)
+            completionHandler(false)
+        })
     }
 }
