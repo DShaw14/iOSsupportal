@@ -9,8 +9,6 @@
 import UIKit
 import Starscream
 import SlackKit
-import RequestKit
-import TrashCanKit
 
 class BoxViewController: UIViewController {
     
@@ -39,7 +37,7 @@ class BoxViewController: UIViewController {
         let issueInput = self.issueField.text
         let descriptonInput = self.descriptionField.text
         */
-        
+        /*
        let config = OAuthConfiguration(token: "PdEp6B7WVzEnZe5XKg", secret: "Sq7PN7wbtNmdgjDwbXfAyHGCfebRKQd8", scopes: ["issue"]) // Scopes are not supported by the API yet
         
         let token = config.accessToken
@@ -67,7 +65,7 @@ class BoxViewController: UIViewController {
          loadCurrentUser(config: myconfig);
         
         //}
-        
+        */
       
     }
             /*

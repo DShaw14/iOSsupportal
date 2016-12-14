@@ -9,7 +9,6 @@
 import UIKit
 import SlackKit
 import Starscream
-import TrashCanKit
 import OAuthSwift
 
 @UIApplicationMain
