@@ -51,17 +51,14 @@ class ViewController: UIViewController, UITextFieldDelegate
         self.view.layoutIfNeeded()
         UsernameTextField.delegate = self
         PasswordTextField.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Do any additional setup after loading the view
         let button = UIButton()
         button.addShadowView()
         loginButton.layer.cornerRadius = 4
         forgotPassword.layer.cornerRadius = 4
         createAccount.layer.cornerRadius = 4
         loginButton.addShadowView()
-        //UsernameTextField.text = ""
-        //PasswordTextField.text = ""
-        //UsernameTextField.textColor = UIColor.lightGray
-        //PasswordTextField.textColor = UIColor.lightGray
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -76,7 +73,7 @@ class ViewController: UIViewController, UITextFieldDelegate
         PasswordTextField.placeholder = nil
     }
     @nonobjc func textFieldShouldReturn(textField: UITextField) -> Bool {
-        // Hide the keyboard.
+        // Hide the keyboard on return key
         textField.resignFirstResponder()
         return true
     }
@@ -84,9 +81,11 @@ class ViewController: UIViewController, UITextFieldDelegate
         UsernameTextField.text = textField.text
         PasswordTextField.text = textField.text
     }
+    
     @IBOutlet weak var createAccount: UIButton!
     @IBOutlet weak var forgotPassword: UIButton!
     @IBOutlet weak var loginButton: UIButton!
+    
     @IBAction func loginButton(_ sender: UIButton) {
         let parameters: [String: Any] = [
             "username" : "\(UsernameTextField.text!)",
@@ -130,23 +129,6 @@ class ViewController: UIViewController, UITextFieldDelegate
                     }
                 }
             }
-            /*
-            let myURL = "http://hurst.pythonanywhere.com/supportal/rest-auth/login/"
-            // deleting any associated cookies
-            if HTTPCookieStorage.shared.cookies != nil {
-                let cookies = HTTPCookieStorage.shared.cookies(for: NSURL(string: myURL) as! URL)
-                for cookie in cookies! {
-                    HTTPCookieStorage.shared.deleteCookie(cookie as HTTPCookie)
-                }
-                */
-                /*
-                 for cookie in cookies {
-                 HTTPCookieStorage.shared.deleteCookie(cookie)
-                 }
-                 */
-            //}
-            // self.logInButton.setTitle("Log in", forState: UIControlState.Normal)
-            // self.loggedIn = false
             print("User is not logged in")
         }
         else if (User.get_IsUserLoggedIn() == false)
@@ -170,75 +152,11 @@ class ViewController: UIViewController, UITextFieldDelegate
                         NSLog("\(cookie)")
                     }
                 }
-                /*
-                 authMgr.getToken() {
-                 (authenticated: Bool, token: String) -> Void in
-                 
-                 if (authenticated) {
-                 // Change the button to read "Log out"
-                 NSLog("Authentication successful, token: %@", token)
-                 self.logInButton.setTitle("Log out", forState: UIControlState.Normal)
-                 self.loggedIn = true
-                 }
-                 else {
-                 NSLog("Authentication failed: %@", token)
-                 }
-                 */
             }
-    }
-    }
-        /*
-            //to get status code
-            if let status = response.response?.statusCode {
-                switch(status){
-                case 201:
-                    print("example success")
-                default:
-                    print("error with response status: \(status)")
-                }
-            }
-           
-            //to get JSON return value
-            if let result = response.result.value {
-                let JSON = result as! NSDictionary
-                print(JSON)
-            }
-            */
-        }
-
-    /*
-    - (void)textFieldDidBeginEditing:(UITextField *)textField {
-    UsernameTextField.placeholder = nil;
-    }
-    
-    - (void)textFieldDidEndEditing:(UITextField *)textField
-    {
-    if ([UsernameTextFiled.text isEqualToString:@""] || [[UsernameTextField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0))
-    {
-    [UsernameTextField setText:@""];
-    UsernameTextField.placeholder = @"Enter Username";
-    }
-    }
-    
-    
-    func textViewDidBeginEditing(textView: UITextView) {
-        
-        self.UsernameTextField.delegate = self
-        self.PasswordTextField.delegate = self
-     
-        if UsernameTextField.textColor == UIColor.lightGray
-        {
-            UsernameTextField.text = nil
-            UsernameTextField.textColor = UIColor.black
-        }
-        if PasswordTextField.textColor == UIColor.lightGray
-        {
-            self.PasswordTextField.text = nil
-            PasswordTextField.textColor = UIColor.black
         }
     }
-    */
-
+    
+}
 
 class TextField : UITextField {
     

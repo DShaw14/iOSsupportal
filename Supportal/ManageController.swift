@@ -14,9 +14,9 @@ import SwiftyJSON
 import OAuthSwift
 
 class ManageController: UIViewController, UITextFieldDelegate {
-   
     override func viewDidLoad() {
         super.viewDidLoad()
+        closeIssue.layer.cornerRadius = 4
         // Do any additional setup after loading the view.
     }
     override func didReceiveMemoryWarning() {
@@ -44,6 +44,7 @@ class ManageController: UIViewController, UITextFieldDelegate {
         print("User is not logged into BitBucket")
         startAuth()
     }
+    // Call the Bitbucket requests
     func doRequests(_ oauthswift: OAuth2Swift, completionHandler: ((Bool)->())?) {
             self.getUser(oauthswift, completionHandler: { success in
                 print("getUser: ")
@@ -55,6 +56,7 @@ class ManageController: UIViewController, UITextFieldDelegate {
                 })
             })
     }
+    // Start Authentication routine and do Bitbucket API requests
     func startAuth()
     {
         let oauthswift = OAuth2Swift(
@@ -73,6 +75,25 @@ class ManageController: UIViewController, UITextFieldDelegate {
                     })
         },failure: { error in print(error.localizedDescription)})
     }
+    // Get BitBucket Username
+    func getUser(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
+    {
+        let _ = oauthswift.client.get("https://bitbucket.org/api/2.0/user/", parameters: [:],
+                                      success: { response in
+                                        let dataString = response.string!
+                                        if let data = dataString.data(using: String.Encoding.utf8) {
+                                            let json = JSON(data: data)
+                                            print("USERNAME: " + "\(json["username"])")
+                                            print("getUser JSON: \(json)")
+                                            self.currentUsername = "\(json["username"])"
+                                            completionHandler(true)
+                                        }
+        },failure: {
+            error in print(error.localizedDescription)
+            completionHandler(false)
+        })
+    }
+    // Get User's Repositories
     func getRepository(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
     {
         print(currentUsername)
@@ -101,26 +122,7 @@ class ManageController: UIViewController, UITextFieldDelegate {
                     completionHandler(false)
         })
     }
-    func getUser(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
-    {
-        let _ = oauthswift.client.get("https://bitbucket.org/api/2.0/user/", parameters: [:],
-            success: { response in
-                let dataString = response.string!
-                    if let data = dataString.data(using: String.Encoding.utf8) {
-                        let json = JSON(data: data)
-                        //let json = JSON(dataString)
-                        print("USERNAME: " + "\(json["username"])")
-                        print("getUser JSON: \(json)")
-                        self.currentUsername = "\(json["username"])"
-                        //print(dataString)
-                        //print(self.currentUsername)
-                        completionHandler(true)
-                    }
-        },failure: {
-            error in print(error.localizedDescription)
-            completionHandler(false)
-      })
-    }
+    // Get issues for current repository
     func getIssues(_ oauthswift: OAuth2Swift,completionHandler:@escaping (Bool) -> ())
     {
         let _ = oauthswift.client.get(("https://api.bitbucket.org/1.0/repositories/\(currentUsername)/\(currentRepo)/issues/"), parameters: [:],
@@ -128,11 +130,9 @@ class ManageController: UIViewController, UITextFieldDelegate {
                     let dataString = response.string!
                         if let data = dataString.data(using: String.Encoding.utf8) {
                             let json = JSON(data: data)
-                            //print(dataString)
                             print("getIssues JSON: \(json)")
                             print(json)
                             completionHandler(true)
-                            // print("JSON SLUG: \(json["slug"])") // slug = repository name
                         }
         },failure: {
             error in print(error.localizedDescription)

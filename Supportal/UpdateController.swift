@@ -21,6 +21,8 @@ class UpdateController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         let currentUsername = User.get_UserName()
         usernameLabel.text = currentUsername
+        changePassword.layer.cornerRadius = 4
+        changeEmail.layer.cornerRadius = 4
         // Do any additional setup after loading the view.
     }
     
@@ -176,9 +178,7 @@ class UpdateController: UIViewController, UITextFieldDelegate {
                         NSLog("\(cookie)")
                     }
                 }
-                
             }
         }
     }
 }
-

@@ -15,9 +15,6 @@ class BoxViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
-        
-       
     }
     
     override func didReceiveMemoryWarning() {
@@ -32,107 +29,11 @@ class BoxViewController: UIViewController {
     @IBOutlet weak var descriptionField: UITextField!
     
     @IBAction func submitButton(_ sender: UIButton) {
-        /*
+        
         let nameInput = self.nameField.text
         let issueInput = self.issueField.text
         let descriptonInput = self.descriptionField.text
-        */
-        /*
-       let config = OAuthConfiguration(token: "PdEp6B7WVzEnZe5XKg", secret: "Sq7PN7wbtNmdgjDwbXfAyHGCfebRKQd8", scopes: ["issue"]) // Scopes are not supported by the API yet
         
-        let token = config.accessToken
-        let myconfig = TokenConfiguration(token)
-        
-        //config.authenticate()
-        
-        let auth = config.authenticate()
-        print("auth = " + "\(auth!)");
-        print("\r\n");
-        
-        func loadCurrentUser(config: TokenConfiguration) {
-            let myresult = TrashCanKit(config).me() { myresult in
-                switch myresult
-                {
-                case .success(let user):
-                    print("user = " + "\(user.login!)")
-                case .failure(let error):
-                    print("error = " + "\(error)")
-                }
-            }
-            print("myresult = " + "\(myresult!)");
-        }
-        
-         loadCurrentUser(config: myconfig);
-        
-        //}
-        */
-      
-    }
-            /*
-        let myconfig = TokenConfiguration("PdEp6B7WVzEnZe5XKg")
-        print("myconfig = " + "\(myconfig)")
-        let usercurrent = loadCurrentUser(config : myconfig)
-        print("Current User = " + "\(usercurrent)");
-        
-        
-        let request = OAuthRouter.authorize(config).URLRequest
-        print("request= " + "\(request!)");
-        print("\r\n");
-        
-       let repository = TrashCanKit().repositories() { response in
-            switch response
-            {
-            case .success(let repositories):
-                print("repositories= " + "\(repositories)");
-                print("response= " + "\(response)");
-            case .failure(let error):
-                print("error= " + "\(error)");
-            }
-        }
-        print("repository" + "\(repository!)");
-        
-        let myauth = "PdEp6B7WVzEnZe5XKg"
-        print("myauth = " + "\(myauth)");
-        
-        func loadCurrentUser(myauth: TokenConfiguration) {
-            let trashman = TrashCanKit(myauth).me() { response in
-                switch response {
-                case .success(let user):
-                    print(user.login!)
-                case .failure(let error):
-                    print(error)
-                }
-            }
-            print(trashman!);
-        }
-        */
-        /*
-        let myuser = TrashCanKit(myauth).me() {
-            response in
-            switch response
-            {
-                case .success(let user):
-                    print(user.login!)
-                case .failure(let error):
-                    print(error)
-            }
-        }
-        print(myuser!);
-         */
-        
-        /*
-        func loadCurrentUser(config: TokenConfiguration) {
-            TrashCanKit(config).me() { response in
-                switch response {
-                case .Success(let user):
-                    println(user.login)
-                case .Failure(let error):
-                    println(error)
-                }
-            }
-        }
-        */
-        /*
         if !nameInput!.isEmpty && !issueInput!.isEmpty && !descriptonInput!.isEmpty {
             if highPriority.isOn {
                 let incoming = IncomingWebhook(url: "https://hooks.slack.com/services/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", channel:"#random", username:"\(nameInput!)")
@@ -146,16 +47,16 @@ class BoxViewController: UIViewController {
         else{
             print("Needs to contain information.")
         }
-        */
-   // } button end bracket
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
-
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

@@ -37,9 +37,10 @@ class User: NSObject {
             "Accept": "application/json",
             "application-type":"REST",
             "Content-Type":"application/json",
-            ]
-        var hello = "hello"
-        let myUser = JSON(hello)
+        ]
+        
+        var loginUser = "Test User" // Dummy Username
+        let myUser = JSON(loginUser)
         if (User.get_IsUserLoggedIn() == true)
         {
             // Attempt to get a token
@@ -63,7 +64,7 @@ class User: NSObject {
                         print("JSON: firstName: \(firstName)")
                         print("JSON: lastName: \(lastName)")
                         
-                        hello = "\(username)"
+                        loginUser = "\(username)"
                         
                     }
                 case .failure(let error):
@@ -73,8 +74,6 @@ class User: NSObject {
         }
         return String(describing: myUser)
     }
-
-    
 }
 
 /*
