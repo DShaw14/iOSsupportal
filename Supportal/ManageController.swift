@@ -47,11 +47,11 @@ class ManageController: UIViewController, UITextFieldDelegate {
     // Call the Bitbucket requests
     func doRequests(_ oauthswift: OAuth2Swift, completionHandler: ((Bool)->())?) {
             self.getUser(oauthswift, completionHandler: { success in
-                print("getUser: ")
+                print("getUser completed")
                 self.getRepository(oauthswift, completionHandler: { success in
-                    print("getRepository: ")
+                    print("getRepository completed")
                     self.getIssues(oauthswift, completionHandler: { success in
-                        print("getIssues: ")
+                        print("getIssues completed")
                     })
                 })
             })
@@ -86,7 +86,7 @@ class ManageController: UIViewController, UITextFieldDelegate {
                                             print("USERNAME: " + "\(json["username"])")
                                             print("getUser JSON: \(json)")
                                             self.currentUsername = "\(json["username"])"
-                                            completionHandler(true)
+                                            completionHandler(true) // getUser completed
                                         }
         },failure: {
             error in print(error.localizedDescription)
@@ -109,13 +109,13 @@ class ManageController: UIViewController, UITextFieldDelegate {
                             for userDict in userArray
                             {
                                 let repo: String! = userDict["slug"].string
-                                print(repo)
+                                print("user's repository: \(repo!)")
                                 self.currentRepo = repo
-                                completionHandler(true)
                             }
                         }
                             print("getRepository JSON: \(json)")
                             print("repository JSON slug: \(self.currentRepo)") // slug = repository name
+                            completionHandler(true) // getRepository completed
                         }
                 },failure: {
                     error in print(error.localizedDescription)
@@ -131,8 +131,7 @@ class ManageController: UIViewController, UITextFieldDelegate {
                         if let data = dataString.data(using: String.Encoding.utf8) {
                             let json = JSON(data: data)
                             print("getIssues JSON: \(json)")
-                            print(json)
-                            completionHandler(true)
+                            completionHandler(true) // getIssues completed
                         }
         },failure: {
             error in print(error.localizedDescription)

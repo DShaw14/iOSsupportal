@@ -67,8 +67,9 @@ class AccountController: UIViewController, UITextFieldDelegate {
         }
         if (User.get_IsUserLoggedIn() == true)
         {
-            // Logout and change the button to read "Log in"
-            //Remove all cache
+            // Logout
+            // Remove all cache
+            // Delete all cookies
             URLCache.shared.removeAllCachedResponses()
             URLCache.shared.diskCapacity = 0
             URLCache.shared.memoryCapacity = 0
