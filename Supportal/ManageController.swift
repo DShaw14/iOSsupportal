@@ -45,32 +45,15 @@ class ManageController: UIViewController, UITextFieldDelegate {
         startAuth()
     }
     func doRequests(_ oauthswift: OAuth2Swift, completionHandler: ((Bool)->())?) {
-        var overallSuccess: Bool = true
-        let refetchGroup = DispatchGroup();
-        sleep(5)
-            refetchGroup.enter();
             self.getUser(oauthswift, completionHandler: { success in
-                overallSuccess = success && overallSuccess
                 print("getUser: ")
-                refetchGroup.leave();
+                self.getRepository(oauthswift, completionHandler: { success in
+                    print("getRepository: ")
+                    self.getIssues(oauthswift, completionHandler: { success in
+                        print("getIssues: ")
+                    })
+                })
             })
-        sleep(5)
-            refetchGroup.enter();
-            self.getRepository(oauthswift, completionHandler: { success in
-                overallSuccess = success && overallSuccess
-                print("getRepository: ")
-                refetchGroup.leave();
-            })
-        sleep(5)
-            refetchGroup.enter();
-            self.getIssues(oauthswift, completionHandler: { success in
-                overallSuccess = success && overallSuccess
-                print("getIssues: ")
-                refetchGroup.leave();
-            })
-            refetchGroup.notify(queue: DispatchQueue.main) {
-                completionHandler?(overallSuccess)
-            }
     }
     func startAuth()
     {
@@ -85,11 +68,38 @@ class ManageController: UIViewController, UITextFieldDelegate {
             scope: "repository+repository:write+repository:admin+account+account:write+issue+issue:write", state:"BITBUCKET",
             success: { credential, response, parameters in
                 print(credential.oauthToken)
-                sleep(5)
-                self.doRequests(oauthswift, completionHandler: { success in
-                    print("Requests Completed")
-                })
+                        self.doRequests(oauthswift, completionHandler: { success in
+                        print("Requests Completed")
+                    })
         },failure: { error in print(error.localizedDescription)})
+    }
+    func getRepository(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
+    {
+        print(currentUsername)
+        let _ = oauthswift.client.get("https://bitbucket.org/!api/2.0/repositories/\(currentUsername)/", parameters: [:],
+            success: { response in
+                let dataString = response.string!
+                    if let data = dataString.data(using: String.Encoding.utf8) {
+                        let json = JSON(data: data)
+                        print("\(json["values"])")
+                                            
+                        if let userArray = json["values"].array
+                        {
+                            for userDict in userArray
+                            {
+                                let repo: String! = userDict["slug"].string
+                                print(repo)
+                                self.currentRepo = repo
+                                completionHandler(true)
+                            }
+                        }
+                            print("getRepository JSON: \(json)")
+                            print("repository JSON slug: \(self.currentRepo)") // slug = repository name
+                        }
+                },failure: {
+                    error in print(error.localizedDescription)
+                    completionHandler(false)
+        })
     }
     func getUser(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
     {
@@ -110,35 +120,6 @@ class ManageController: UIViewController, UITextFieldDelegate {
             error in print(error.localizedDescription)
             completionHandler(false)
       })
-    }
-    func getRepository(_ oauthswift: OAuth2Swift, completionHandler:@escaping (Bool) -> ())
-    {
-        print(currentUsername)
-         let _ = oauthswift.client.get("https://bitbucket.org/!api/2.0/repositories/\(currentUsername)/", parameters: [:],
-         success: { response in
-                        let dataString = response.string!
-                        if let data = dataString.data(using: String.Encoding.utf8) {
-                        let json = JSON(data: data)
-                        print("\(json["values"])")
-                            
-                        if let userArray = json["values"].array
-                        {
-                            for userDict in userArray
-                            {
-                                let repo: String! = userDict["slug"].string
-                                print(repo)
-                                self.currentRepo = repo
-                                completionHandler(true)
-                            }
-                        }
-                        
-                        print("getRepository JSON: \(json)")
-                        print("repository JSON slug: \(self.currentRepo)") // slug = repository name
-                }
-        },failure: {
-            error in print(error.localizedDescription)
-            completionHandler(false)
-        })
     }
     func getIssues(_ oauthswift: OAuth2Swift,completionHandler:@escaping (Bool) -> ())
     {
