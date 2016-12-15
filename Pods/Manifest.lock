@@ -8,6 +8,7 @@ PODS:
   - Starscream (2.0.2)
   - Swifter (1.3.2)
   - SwiftyJSON (3.1.3)
+  - URLNavigator (1.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - OAuthSwift (~> 1.1.0)
   - SlackKit (~> 3.1.2)
   - SwiftyJSON (~> 3.1)
+  - URLNavigator (~> 1.1)
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
@@ -24,7 +26,8 @@ SPEC CHECKSUMS:
   Starscream: 6c135a34e0a6e60cedaa0b30db67a4c05cf7cd38
   Swifter: dd1800ba8eb3e28b22b8bd20f91a8561a0110fac
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  URLNavigator: 2ec64d7ade7fa11032e57776ab826a8631377301
 
-PODFILE CHECKSUM: d6d8c251b859f1e672d97ce199f5cce721acba76
+PODFILE CHECKSUM: 69e326520e60e3e3fc54d4ba1402467a9714683c
 
 COCOAPODS: 1.2.0.beta.1

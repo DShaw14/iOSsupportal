@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     // AppDelegate
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        /*
         if (url.host == "oauth-swift") {
             OAuthSwift.handle(url: url)
         }
@@ -29,12 +30,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if (url.path.hasPrefix("/bitbucket")){
                 OAuth1Swift.handle(url: url as URL)
             }
-            if ( url.path.hasPrefix("/github" )){
+            if ( url.path.hasPrefix("/bitbucket" )){
                 OAuth2Swift.handle(url: url as URL)
             }
         }
         return true
-     }
+        */
+        if (url.host == "oauth-swift") {
+            OAuth2Swift.handle(url: url)
+        }
+        if (url.host == "oauth-callback") {
+            OAuth2Swift.handle(url: url)
+        }
+        return true
+    }
      /*
      // OAuth2.0
      let oauthswift = OAuth2Swift(

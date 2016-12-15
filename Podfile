@@ -9,6 +9,7 @@ target 'Supportal' do
   pod 'SwiftyJSON', '~> 3.1'
   pod 'KeychainAccess', '~> 3.0.1'
   pod 'OAuthSwift', '~> 1.1.0'
+  pod 'URLNavigator', '~> 1.1'
 
   #pod 'AeroGearOAuth2'
   #pod 'TrashCanKit', '~> 0.6.0'

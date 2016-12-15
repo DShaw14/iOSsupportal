@@ -628,22 +628,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503443802.548711"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -708,7 +692,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
@@ -724,7 +708,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
@@ -772,7 +756,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
@@ -788,7 +772,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
@@ -872,7 +856,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.335367"
+                  timestampString = "503522053.805877"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
@@ -887,7 +871,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.337917"
+                  timestampString = "503522053.809118"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
@@ -936,7 +920,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.348542"
+                  timestampString = "503522053.821052"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "76"
@@ -951,7 +935,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.351518"
+                  timestampString = "503522053.824356"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "76"
@@ -1016,7 +1000,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.356931"
+                  timestampString = "503522053.829914"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
@@ -1031,7 +1015,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.359358"
+                  timestampString = "503522053.83272"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
@@ -1064,7 +1048,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.373394"
+                  timestampString = "503522053.838232"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1079,7 +1063,7 @@
                   moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
-                  timestampString = "503445957.376905"
+                  timestampString = "503522053.841457"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1140,127 +1124,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503465000.57769"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445564.516729"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.847233"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "97"
                   endingLineNumber = "97"
-                  offsetFromSymbolStart = "424">
+                  offsetFromSymbolStart = "314">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445564.519087"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.850013"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "876">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1272,59 +1176,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "closeIssue(_:)"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getUser(_:completionHandler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445513.49144"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "328">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445513.495197"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "getRepository(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "getIssues(_:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1332,47 +1220,77 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503443917.763424"
+            timestampString = "503517973.906818"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ManageController"
+            landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  symbolName = "Supportal.ManageController.currentRepo.getter : Swift.String"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.389085"
+                  timestampString = "503467577.216724"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "100"
-                  endingLineNumber = "100"
-                  offsetFromSymbolStart = "297">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "53">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #2)"
+                  symbolName = "Supportal.ManageController.currentRepo.setter : Swift.String"
                   moduleName = "Supportal"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.391542"
+                  timestampString = "503467577.21905"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
-                  offsetFromSymbolStart = "28">
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Supportal.ManageController"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.222566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "269">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Supportal.ManageController&gt;"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.225117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "193">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1380,17 +1298,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503443964.867685"
+            timestampString = "503516117.686379"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "ManageController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.currentUsername.getter : Swift.String"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.234539"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.currentUsername.setter : Swift.String"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.241611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Supportal.ManageController"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.244459"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supportal.ManageController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Supportal.ManageController&gt;"
+                  moduleName = "Supportal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
+                  timestampString = "503467577.248264"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1400,27 +1380,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503444159.888261"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444109.084887"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "getUser(_:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1432,39 +1396,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503444109.955557"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
@@ -1476,685 +1408,96 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.402849"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "337">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #2)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.405286"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "277">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444420.70032"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.421449"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "246">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.424017"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "277">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.433924"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "416">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #3)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.43675"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "277">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.770789"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "374">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.775853"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
-                  offsetFromSymbolStart = "277">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
-            landmarkName = "getIssues(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
-            landmarkName = "getIssues(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445955.540058"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445513.572912"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "460">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1).(closure #1).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445513.57823"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "107"
-                  endingLineNumber = "107"
-                  offsetFromSymbolStart = "402">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "getIssues(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
-            landmarkName = "getIssues(_:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getIssues (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.868287"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "217"
-                  endingLineNumber = "217"
-                  offsetFromSymbolStart = "345">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getIssues (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.872229"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "217"
-                  endingLineNumber = "217"
-                  offsetFromSymbolStart = "430">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "getIssues(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444905.425208"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444906.032635"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444906.57388"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.899876"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "851">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.902244"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "3405">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #2)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.904462"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444907.744263"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "getUser(_:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.91252"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "851">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.915739"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "3405">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(getUser (OAuthSwift.OAuth2Swift, completionHandler : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #2)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445159.919357"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "30">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503444908.913967"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "109"
             endingLineNumber = "109"
+            landmarkName = "getUser(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "getUser(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getUser(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "getRepository(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "getIssues(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521655.649377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "closeIssue(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.closeIssue (__ObjC.UIButton) -&gt; ()"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.442801"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "2624">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #1)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.446137"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "455">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Supportal.ManageController.(closeIssue (__ObjC.UIButton) -&gt; ()).(closure #2)"
-                  moduleName = "Supportal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Supportal/ManageController.swift"
-                  timestampString = "503445957.449652"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "69">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "getRepository(_:completionHandler:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Supportal/ManageController.swift"
-            timestampString = "503445512.712431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "getRepository(_:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2165,13 +1508,974 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Supportal/ManageController.swift"
-            timestampString = "503445890.58115"
+            timestampString = "503521796.409298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "closeIssue(_:)"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getUser(_:completionHandler:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503470044.192925"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503470044.836883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "getUser(_:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x11092f6c7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475062.107758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.870445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "794">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.873646"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "3379">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475064.700699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.879533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "653">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.882266"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "2194">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475067.691043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475069.271996"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475071.072175"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475071.624044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.903567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "747">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.906419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "2944">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475072.200106"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475072.80552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.91704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.919849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "2544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475073.683898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.925989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.928779"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1675">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475074.363575"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475075.08782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.940085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "545">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftError.description.getter : Swift.String"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+                  timestampString = "503522053.943793"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1207">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475075.830642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475079.078355"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475080.408016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475080.965131"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475081.592558"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503475088.452766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "retainError(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/MyUrlProtocol.swift"
+            timestampString = "503475834.852054"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MyUrlProtocol"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/AuthController.swift"
+            timestampString = "503516117.686379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "startAuth()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supportal/ManageController.swift"
+            timestampString = "503521796.409298"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "startAuth()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517532.088854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517538.855098"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517540.138308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517547.916885"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517550.525775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "start()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.start () -&gt; ()"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520611.964734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "410">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.(start () -&gt; ()).(closure #1)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520611.968775"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517551.447124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "start()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.start () -&gt; ()"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520611.980427"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "410">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.(start () -&gt; ()).(closure #1)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520611.984526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517553.620607"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517554.180526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517554.884224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517555.411062"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "start()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.(start () -&gt; ()).(closure #1)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520612.012331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "631">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftHTTPRequest.(start () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+                  timestampString = "503520612.016806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517557.882582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftHTTPRequest.swift"
+            timestampString = "503517558.706043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/Objc.swift"
+            timestampString = "503517663.868551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "get(_:parameters:headers:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftClient.(get (Swift.String, parameters : Swift.Dictionary&lt;Swift.String, Any&gt;, headers : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, success : Swift.Optional&lt;(OAuthSwift.OAuthSwiftResponse) -&gt; ()&gt;, failure : Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;) -&gt; Swift.Optional&lt;OAuthSwift.OAuthSwiftRequestHandle&gt;).(default argument 1)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/Objc.swift"
+                  timestampString = "503521798.038404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftClient.(get (Swift.String, parameters : Swift.Dictionary&lt;Swift.String, Any&gt;, headers : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, success : Swift.Optional&lt;(OAuthSwift.OAuthSwiftResponse) -&gt; ()&gt;, failure : Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;) -&gt; Swift.Optional&lt;OAuthSwift.OAuthSwiftRequestHandle&gt;).(default argument 2)"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/Objc.swift"
+                  timestampString = "503521798.041744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OAuthSwift.OAuthSwiftClient.get (Swift.String, parameters : Swift.Dictionary&lt;Swift.String, Any&gt;, headers : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, success : Swift.Optional&lt;(OAuthSwift.OAuthSwiftResponse) -&gt; ()&gt;, failure : Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;) -&gt; Swift.Optional&lt;OAuthSwift.OAuthSwiftRequestHandle&gt;"
+                  moduleName = "OAuthSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stevenamenken/XcodeProjects/Supportal/Pods/OAuthSwift/Sources/Objc.swift"
+                  timestampString = "503521798.045359"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/OAuthSwift/Sources/OAuthSwiftError.swift"
+            timestampString = "503521751.955934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "OAuthSwiftError"
+            landmarkType = "4">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

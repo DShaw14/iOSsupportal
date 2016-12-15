@@ -54,6 +54,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>URLNavigator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -62,7 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>47AD56B08F385DE097A2244F48381D22</key>
+		<key>3F1AB9231A334E9F4AC010374FDCF9F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +77,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>87B14E405D2329A25F8C260342658AED</key>
+		<key>6204F3D772D6765F081E0D254236FB6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F5319D2883BBCF676B62809CFC038B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>760AC99ABD23804E3A7D8ACA8BF72CF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +107,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6D813D4FE1BA089A78293CC4AAE6324</key>
+		<key>C566BC96514C32B506BB0F404E7CD58D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB4F4D8E07B4860D7621CE40A8CABE33</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E3E333DCD87320FD5814E13103924B9A</key>
+		<key>EDF0171218C8B671583333FF5A839E50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
